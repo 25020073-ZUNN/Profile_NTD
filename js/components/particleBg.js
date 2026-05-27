@@ -55,7 +55,7 @@ export default class ParticleBackground {
       top: 0; left: 0;
       width: 100%; height: 100%;
       pointer-events: none;
-      z-index: -1;
+      z-index: 15;
       opacity: 1;
     `;
   }
@@ -159,25 +159,8 @@ export default class ParticleBackground {
     const width = this.canvas.width;
     const height = this.canvas.height;
     
-    // 1. Pure Sand Cream background color
-    this.ctx.fillStyle = '#FAF6F0';
-    this.ctx.fillRect(0, 0, width, height);
-
-    // 2. Draw subtle dot-matrix/paper-grid
-    this.ctx.save();
-    this.ctx.fillStyle = '#121212';
-    this.ctx.globalAlpha = 0.04;
-    const dotSpacing = 60;
-    const scrollOffset = (this.scrollY * 0.1) % dotSpacing;
-    
-    for (let x = 0; x < width; x += dotSpacing) {
-      for (let y = -scrollOffset; y < height; y += dotSpacing) {
-        this.ctx.beginPath();
-        this.ctx.arc(x, y, 1.5, 0, Math.PI * 2);
-        this.ctx.fill();
-      }
-    }
-    this.ctx.restore();
+    // Clear canvas with transparent background (canvas is overlay)
+    this.ctx.clearRect(0, 0, width, height);
 
     // 3. Draw geometric shapes
     this.shapes.forEach(s => {
@@ -194,7 +177,7 @@ export default class ParticleBackground {
       this.ctx.fillStyle = s.color;
       this.ctx.strokeStyle = '#121212';
       this.ctx.lineWidth = 2;
-      this.ctx.globalAlpha = 0.85; // Solid creative colors
+      this.ctx.globalAlpha = 0.5; // Semi-transparent overlay
 
       // Subtle drop shadow underlay for neo-brutalism offset
       this.ctx.shadowColor = '#121212';
