@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* ── Color Palette (serious.business inspired) ── */
+  --bg-primary:     #FAF6F0;   /* Warm off-white / light cream */
+  --bg-secondary:   #F5EFE6;   /* Slightly darker cream for contrasting sections */
+  --bg-surface:     #ffffff;   /* Pure white for card backings */
+  --bg-elevated:    #ffffff;
+  --bg-hover:       #FAF6F0;
+  --bg-hero:        #FAF6F0;
+  
+  /* Vibrant Creative Accent Colors */
+  --color-orange:   #FF5F35;   /* Signature energetic orange */
+  --color-blue:     #2B4BF2;   /* Royal cobalt blue */
+  --color-green:    #00DF89;   /* Creative neon green */
+  --color-yellow:   #FCD34D;   /* Sunny vibrant yellow */
+  --color-purple:   #9D4EDD;   /* Vivid violet */
+  
+  --accent-start:   var(--color-orange);
+  --accent-mid:     var(--color-blue);
+  --accent-end:     var(--color-purple);
+  --accent-gradient: linear-gradient(135deg, var(--color-orange), var(--color-blue));
+  --accent-gradient-h: linear-gradient(90deg, var(--color-orange), var(--color-blue), var(--color-purple));
+  
+  /* Semantic mappings */
+  --color-primary:    var(--color-orange);
+  --color-secondary:  var(--color-blue);
+  --color-tertiary:   var(--color-green);
+  --color-warning:    var(--color-yellow);
+  --color-danger:     #FF3B30;
+  --color-success:    var(--color-green);
+  
+  /* Text colors */
+  --text-primary:   #121212;   /* Deep near-black */
+  --text-secondary: #3D3D3D;   /* Dark charcoal */
+  --text-muted:     #7F7F7F;   /* Neutral gray */
+  --text-accent:    var(--color-orange);
+  --text-heading:   #121212;
+  
+  /* Border settings (Chunky outlines) */
+  --border-default: 2px solid #121212;
+  --border-subtle:  1px solid rgba(18, 18, 18, 0.15);
+  --border-hover:   2px solid var(--color-orange);
+  --border-accent:  2px solid var(--color-blue);
+  
+  /* Paper / Glass overlay */
+  --glass-bg:       rgba(250, 246, 240, 0.85);
+  --glass-border:   2px solid #121212;
+  --glass-blur:     12px;
+  
+  /* ── Typography ── */
+  --font-heading: 'Space Grotesk', 'Inter', sans-serif;
+  --font-body:    'Inter', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+  
+  /* Font sizes (Agency style: bold, large) */
+  --text-xs:    0.75rem;
+  --text-sm:    0.875rem;
+  --text-base:  1rem;
+  --text-lg:    1.125rem;
+  --text-xl:    1.375rem;
+  --text-2xl:   1.75rem;
+  --text-3xl:   2.25rem;
+  --text-4xl:   3rem;
+  --text-5xl:   4rem;
+  --text-6xl:   5rem;
+  --text-hero:  clamp(3rem, 7vw, 5.5rem);
+  
+  /* Font weights */
+  --weight-normal:    400;
+  --weight-medium:    500;
+  --weight-semibold:  600;
+  --weight-bold:      700;
+  --weight-extrabold: 800;
+  
+  /* Line heights */
+  --leading-tight:   1.1;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.65;
+  
+  /* ── Spacing (Ample white space) ── */
+  --space-1:   0.25rem;
+  --space-2:   0.5rem;
+  --space-3:   0.75rem;
+  --space-4:   1rem;
+  --space-5:   1.25rem;
+  --space-6:   1.5rem;
+  --space-8:   2rem;
+  --space-10:  3rem;
+  --space-12:  4rem;
+  --space-16:  5.5rem;
+  --space-20:  7rem;
+  --space-24:  8.5rem;
+  --space-32:  11rem;
+  
+  /* ── Border Radius ── */
+  --radius-sm:    6px;
+  --radius-md:    10px;
+  --radius-lg:    16px;
+  --radius-xl:    24px;
+  --radius-2xl:   40px;
+  --radius-full:  9999px;
+  
+  /* ── Shadows (Flat brutalist & soft offset) ── */
+  --shadow-flat:        5px 5px 0px #121212;
+  --shadow-flat-hover:  9px 9px 0px #121212;
+  --shadow-flat-btn:    3px 3px 0px #121212;
+  --shadow-sm:          2px 2px 0px rgba(18, 18, 18, 0.08);
+  --shadow-md:          3px 3px 0px #121212;
+  --shadow-lg:          6px 6px 0px #121212;
+  --shadow-xl:          10px 10px 0px #121212;
+  --shadow-card:        4px 4px 0px #121212;
+  --shadow-card-hover:  8px 8px 0px #121212;
+  
+  /* ── Transitions (Snappy and organic) ── */
+  --ease-out:    cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);
+  --ease-spring: cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  --ease-fluent: cubic-bezier(0.16, 1, 0.3, 1);
+  
+  --duration-fast:    180ms;
+  --duration-normal:  300ms;
+  --duration-slow:    450ms;
+  --duration-slower:  600ms;
+  
+  /* ── Z-Index ── */
+  --z-base:     1;
+  --z-dropdown: 10;
+  --z-sticky:   20;
+  --z-overlay:  30;
+  --z-modal:    40;
+  --z-toast:    50;
+  
+  /* ── Container ── */
+  --container-max: 1200px;
+  --container-padding: var(--space-8);
+}

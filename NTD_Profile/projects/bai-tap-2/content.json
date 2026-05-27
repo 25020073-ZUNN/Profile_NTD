@@ -1,0 +1,111 @@
+{
+  "id": 2,
+  "title": "Tìm kiếm & đánh giá thông tin",
+  "subtitle": "Bài tập 2 - Mục 3.4",
+  "icon": "🔍",
+  "description": "Báo cáo nghiên cứu: Phân tích thực trạng chuyển đổi số tại doanh nghiệp vừa và nhỏ (SMEs) ở Hà Nội và đánh giá hệ thống tài liệu học thuật.",
+  "tags": [
+    "Research",
+    "Critical Thinking",
+    "Academic"
+  ],
+  "status": "done",
+  "displayMode": "parsed",
+  "sections": [
+    {
+      "type": "heading",
+      "content": "Báo cáo Nghiên cứu: Chuyển đổi số tại SMEs ở Hà Nội"
+    },
+    {
+      "type": "text",
+      "content": "Báo cáo này phân tích thực trạng chuyển đổi số tại các Doanh nghiệp Vừa và Nhỏ (SMEs) trên địa bàn Thủ đô Hà Nội, đồng thời đánh giá độ tin cậy của hệ thống tài liệu học thuật được sử dụng."
+    },
+    {
+      "type": "heading",
+      "content": "1. Cơ sở lựa chọn chủ đề"
+    },
+    {
+      "type": "text",
+      "content": "Trong bối cảnh Cách mạng Công nghiệp 4.0, chuyển đổi số (Digital Transformation) đã trở thành hệ hình quản trị mang tính sống còn. Đối với lực lượng SMEs — xương sống của nền kinh tế Việt Nam — sự thích ứng với kỷ nguyên số là điều kiện tiên quyết để duy trì lợi thế cạnh tranh."
+    },
+    {
+      "type": "text",
+      "content": "Chủ đề nghiên cứu: <strong>\"Động lực, Tác động và Rào cản trong tiến trình Chuyển đổi số tại các SMEs trên địa bàn Thủ đô Hà Nội\"</strong>. Nghiên cứu khoanh vùng tại Hà Nội — trung tâm đổi mới sáng tạo, nơi chịu áp lực kép từ đô thị hóa nhanh và yêu cầu tái cấu trúc mô hình tăng trưởng dựa trên Big Data và AI."
+    },
+    {
+      "type": "heading",
+      "content": "2. Chiến lược tìm kiếm tài liệu"
+    },
+    {
+      "type": "text",
+      "content": "Chiến lược tìm kiếm toàn diện khai thác 4 nhóm nguồn tài liệu theo chuẩn mực học thuật quốc tế:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Cơ sở dữ liệu học thuật</strong>: Google Scholar, Microsoft Academic, ResearchGate — sử dụng toán tử Boolean (\"digital transformation\" AND \"SMEs\" AND \"Hanoi\")",
+        "<strong>Tạp chí khoa học chuyên ngành</strong>: IJAAS, Decision Science Letters, Tạp chí Kinh tế và Dự báo, Tạp chí Công Thương",
+        "<strong>Sách chuyên khảo</strong>: NXB Chính trị quốc gia Sự thật, NXB Đại học Quốc gia Hà Nội",
+        "<strong>Nguồn mở Internet</strong>: Cổng thông tin Chuyển đổi số Hà Nội (.gov.vn), báo cáo của Cục Phát triển Doanh nghiệp (MPI) phối hợp GIZ"
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Tổng cộng hơn <strong>12 tài liệu tham khảo chất lượng cao</strong> đã được thu thập, trong đó có 6 bài báo khoa học có quy trình bình duyệt (peer-review) nghiêm ngặt."
+    },
+    {
+      "type": "heading",
+      "content": "3. Tổng quan tài liệu"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3.1. Nền tảng lý thuyết"
+    },
+    {
+      "type": "text",
+      "content": "Quá trình chuyển đổi số được kiến tạo thông qua các cơ chế nhận thức phức tạp, dựa trên <strong>Thuyết Hành vi Có kế hoạch (TPB)</strong>. Khảo sát trên 456 SMEs tại Hà Nội chỉ ra rằng quá trình số hóa bị chi phối bởi chuỗi 6 nhân tố, trong đó nhận thức về sự hữu ích (Perceived Usefulness) và điều kiện thuận lợi (Facilitating Conditions) là yếu tố quyết định."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3.2. Tác động lên hiệu suất doanh nghiệp"
+    },
+    {
+      "type": "text",
+      "content": "Nghiên cứu định lượng trên 351 SMEs sử dụng mô hình SEM cho thấy: chuyển đổi số cải thiện hiệu quả sản xuất (β=0.35), tăng năng lực cạnh tranh (β=0.28), giảm chi phí vận hành thông qua tự động hóa. Ngành sản xuất được hưởng lợi nhiều nhất so với ngành dịch vụ."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3.3. Thực trạng rào cản tại Hà Nội"
+    },
+    {
+      "type": "text",
+      "content": "Theo khảo sát trên 500 SMEs toàn quốc, chỉ <strong>25%</strong> doanh nghiệp sẵn sàng chuyển đổi số thực sự. Tại Hà Nội, <strong>45%</strong> SMEs có ngân sách nhưng không đáp ứng đủ nhu cầu triển khai, và <strong>20%</strong> không có bất kỳ khoản ngân sách nào dành cho chuyển đổi số."
+    },
+    {
+      "type": "heading",
+      "content": "4. Đánh giá độ tin cậy nguồn tài liệu"
+    },
+    {
+      "type": "text",
+      "content": "Toàn bộ 12 nguồn tài liệu được thẩm định theo 5 tiêu chí: <strong>Tác giả, Cơ quan xuất bản, Phương pháp nghiên cứu, Trích dẫn và Tính cập nhật</strong>."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Bài báo khoa học định lượng</strong>: Ưu điểm — tính nhân quả chính xác, độ tin cậy thống kê cao (SEM, SmartPLS 4, SPSS). Nhược điểm — đôi khi bỏ qua rào cản vi mô.",
+        "<strong>Sách chuyên khảo</strong>: Ưu điểm — tầm nhìn chiến lược, hệ thống hóa lý luận chuẩn mực. Nhược điểm — chu kỳ xuất bản dài, minh chứng công nghệ có thể lạc hậu nhanh.",
+        "<strong>Báo cáo vĩ mô/Công quyền</strong>: Ưu điểm — tính ứng dụng tức thì, quy mô mẫu lớn. Nhược điểm — thiếu quy trình peer-review học thuật."
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Điểm sáng: <strong>90%</strong> tài liệu tham khảo được xuất bản trong giai đoạn 2024-2026, đảm bảo tính cập nhật cao nhất. Sự kết hợp cả ba nhóm nguồn tạo hiệu ứng bù trừ hoàn hảo cho nghiên cứu."
+    }
+  ],
+  "driveLink": "https://drive.google.com/file/d/1-p7GDCHGGQtefg0MxSGXFLroyoV4lTdO/view?usp=drive_link"
+}

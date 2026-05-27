@@ -1,0 +1,138 @@
+{
+  "id": 6,
+  "title": "Sử dụng AI có trách nhiệm",
+  "subtitle": "Bài tập 4 - Mục 4.1",
+  "icon": "⚖️",
+  "description": "Báo cáo: Sử dụng AI có trách nhiệm và đạo đức trong học thuật — nghiên cứu chính sách, thực hành và xây dựng bộ nguyên tắc cá nhân.",
+  "tags": [
+    "AI Ethics",
+    "Academic Integrity",
+    "Critical Thinking"
+  ],
+  "status": "done",
+  "displayMode": "parsed",
+  "sections": [
+    {
+      "type": "heading",
+      "content": "Báo cáo: Sử dụng AI có trách nhiệm và đạo đức trong học thuật"
+    },
+    {
+      "type": "heading",
+      "content": "I. Nghiên cứu chính sách của trường đại học về AI"
+    },
+    {
+      "type": "text",
+      "content": "Phân tích dựa trên chính sách tiêu biểu của các trường đại học lớn tại Việt Nam (ĐH RMIT Việt Nam, ĐH Bách Khoa Hà Nội):"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "🔧 <strong>Công cụ hỗ trợ, không phải người thay thế</strong>: AI được định nghĩa là công cụ tìm kiếm thông tin, tóm tắt tài liệu, kiểm tra ngữ pháp. Sao chép nguyên văn từ AI bị xử lý như <strong>hành vi đạo văn</strong>.",
+        "📋 <strong>Quy định minh bạch và trích dẫn</strong>: Mọi sự can thiệp của AI phải được khai báo rõ ràng. Sử dụng chuẩn trích dẫn APA 7th edition: ghi rõ nguồn công cụ, phiên bản và mục đích sử dụng.",
+        "💡 <strong>Nhận định cá nhân</strong>: Chính sách thể hiện sự cởi mở — không cấm đoán cực đoan mà hướng tới giáo dục sử dụng công nghệ có đạo đức. Đòi hỏi nâng cao năng lực <strong>tư duy phản biện</strong>."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "II. Thực hiện nhiệm vụ học tập với AI"
+    },
+    {
+      "type": "text",
+      "content": "<strong>Nhiệm vụ</strong>: Chuẩn bị dàn ý thuyết trình và tóm tắt tài liệu cho chủ đề <em>\"Tác động của AI đối với kỹ năng tư duy phản biện của sinh viên\"</em>."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bước 1: Prompt đã sử dụng"
+    },
+    {
+      "type": "code",
+      "content": "\"Đóng vai một chuyên gia giáo dục đại học, hãy giúp tôi lập dàn ý\nbài thuyết trình 10 phút về 'Tác động của AI đối với kỹ năng tư duy\nphản biện của sinh viên'. Sau đó, tóm tắt 3 lập luận bảo vệ quan điểm\nrằng AI làm giảm tư duy phản biện nếu lạm dụng.\""
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bước 2: Đầu ra của AI"
+    },
+    {
+      "type": "text",
+      "content": "AI cung cấp dàn ý 3 phần (Mở bài, Thân bài, Kết luận) và 3 lập luận:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Hiệu ứng lười biếng nhận thức (Cognitive laziness)",
+        "Thiếu đa dạng góc nhìn do thuật toán (Filter bubble)",
+        "Nguy cơ tin tưởng mù quáng vào thông tin sai lệch"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bước 3: Đánh giá và chỉnh sửa"
+    },
+    {
+      "type": "text",
+      "content": "Đầu ra có cấu trúc logic nhưng ngôn từ <strong>rập khuôn</strong>. Đã tiến hành:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Loại bỏ lập luận số 2 (quá vĩ mô cho bài thuyết trình 10 phút)",
+        "Bổ sung ví dụ thực tiễn từ môi trường học thuật Việt Nam",
+        "Thay đổi văn phong phù hợp ngữ cảnh trình bày thực tế"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bước 4: Tích hợp và trích dẫn"
+    },
+    {
+      "type": "text",
+      "content": "Dùng dàn ý AI làm <strong>khung sườn</strong>, tự viết lại toàn bộ nội dung chi tiết. Trích dẫn minh bạch: <em>\"Bài thuyết trình có sử dụng ChatGPT (GPT-4) để hỗ trợ lên ý tưởng cấu trúc dàn ý ban đầu. (OpenAI, 2024)\"</em>"
+    },
+    {
+      "type": "heading",
+      "content": "III. Phân tích các vấn đề đạo đức"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<strong>Ranh giới hỗ trợ hợp lý vs. gian lận</strong>: Rà soát lỗi chính tả, gợi ý từ vựng = hỗ trợ hợp lý. Tạo nội dung cốt lõi rồi nộp dưới tư cách cá nhân = gian lận. Gian lận xảy ra khi \"linh hồn\" bài viết không thuộc về người nộp.",
+        "<strong>Quyền sở hữu trí tuệ</strong>: AI được huấn luyện trên dữ liệu có bản quyền. Đầu ra có thể đang \"xào nấu\" ý tưởng người khác mà không ghi nguồn. Nguy cơ vi phạm bản quyền và liêm chính học thuật.",
+        "<strong>Tác động đến phát triển kỹ năng</strong>: Quá trình làm bài tập rèn luyện tư duy logic và giải quyết vấn đề. Lạm dụng AI dẫn đến \"thui chột\" tư duy phản biện, khiến sinh viên tin tưởng mù quáng vào thông tin có sẵn."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "IV. Bộ 6 nguyên tắc cá nhân"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "🧠 <strong>Tự chủ tư duy</strong>: Luôn tự brainstorm và lập dàn ý thô TRƯỚC khi tham vấn AI",
+        "🔍 <strong>Kiểm chứng thông tin (Fact-check)</strong>: Chịu trách nhiệm hoàn toàn, kiểm chứng chéo mọi dữ liệu từ AI",
+        "📝 <strong>Minh bạch tuyệt đối</strong>: Trung thực khai báo công cụ AI đã sử dụng và mức độ can thiệp",
+        "🔒 <strong>Bảo mật dữ liệu</strong>: Không nhập dữ liệu cá nhân, nghiên cứu chưa công bố vào nền tảng AI",
+        "⚖️ <strong>Quy tắc 80/20</strong>: AI chỉ đóng góp tối đa 20% (cấu trúc, sửa lỗi), 80% giá trị cốt lõi từ năng lực cá nhân",
+        "©️ <strong>Tôn trọng bản quyền</strong>: Chủ động tìm kiếm và trích dẫn bản gốc thay vì sao chép nguồn giả định từ AI"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "V. Infographic tổng kết"
+    },
+    {
+      "type": "image",
+      "src": "assets/img-000.png",
+      "caption": "Infographic: Sử dụng AI có trách nhiệm trong học thuật"
+    }
+  ],
+  "driveLink": "https://drive.google.com/file/d/1HqgOmmGZVoD0jM04Szv8Hdw19Q-Eaggq/view?usp=drive_link"
+}

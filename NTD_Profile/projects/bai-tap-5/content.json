@@ -1,0 +1,148 @@
+{
+  "id": 5,
+  "title": "Sáng tạo nội dung số với AI",
+  "subtitle": "Bài tập 2 - Mục 5.4",
+  "icon": "🎨",
+  "description": "Dự án truyền thông \"Nano Banana\" — Sáng tạo sản phẩm nội dung số hoàn chỉnh bằng 3 công cụ AI: ChatGPT, DALL-E 3, Gemini Canvas.",
+  "tags": [
+    "AI",
+    "Digital Content",
+    "ChatGPT",
+    "DALL-E",
+    "Gemini"
+  ],
+  "status": "done",
+  "displayMode": "parsed",
+  "sections": [
+    {
+      "type": "heading",
+      "content": "Dự án: Nano Banana — Cuộc Cách Mạng Siêu Thực Phẩm Vũ Trụ"
+    },
+    {
+      "type": "heading",
+      "content": "1. Giới thiệu tổng quan"
+    },
+    {
+      "type": "text",
+      "content": "Dự án truyền thông công nghệ sinh học <strong>\"Nano Banana\"</strong> được xây dựng nhằm giới thiệu một khái niệm khoa học viễn tưởng: phát minh ra những trái chuối kích thước hiển vi (nano) nhờ công nghệ biến đổi sinh học đột phá."
+    },
+    {
+      "type": "text",
+      "content": "<strong>Mục tiêu cốt lõi</strong>: Giải quyết vấn nạn thiếu hụt dinh dưỡng toàn cầu, đồng thời cung cấp thực phẩm tối ưu cho phi hành gia trong sứ mệnh không gian dài ngày. Mỗi quả \"Nano Banana\" siêu nhỏ chứa hàm lượng calo, kali và vitamin tương đương <strong>10 nải chuối thông thường</strong>."
+    },
+    {
+      "type": "text",
+      "content": "Quy trình làm việc tích hợp 3 công cụ AI:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "🧠 <strong>ChatGPT (OpenAI)</strong> — Nhà cố vấn khoa học viễn tưởng & biên kịch truyền thông",
+        "🎨 <strong>DALL-E 3 (OpenAI)</strong> — Họa sĩ minh họa 3D sinh học",
+        "📊 <strong>Google Gemini Canvas</strong> — Nhà thiết kế slide chuyên nghiệp"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "2. Quá trình sử dụng các công cụ AI"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "2.1. Giai đoạn 1: Tạo lập nội dung bằng ChatGPT"
+    },
+    {
+      "type": "text",
+      "content": "Áp dụng kỹ thuật <strong>Role-playing + Contextual Prompting</strong> để hướng dẫn ChatGPT tạo bài phân tích sâu sắc, khoa học nhưng giàu tính truyền thông."
+    },
+    {
+      "type": "text",
+      "content": "<strong>System Prompt</strong>: <em>\"Bạn là nhà khoa học viễn tưởng xuất sắc đồng thời là chuyên gia marketing... Viết bài khoa học đại chúng giới thiệu Nano Banana... Chia thành: Giới thiệu, Cơ chế sinh học nano, Ứng dụng thực tiễn, Triển vọng tương lai...\"</em>"
+    },
+    {
+      "type": "text",
+      "content": "ChatGPT tạo ra bài viết với thuật ngữ ấn tượng: \"bio-encapsulation\", \"nanofiber nutrient matrix\", \"cellular assimilation\". Sau đó dùng <strong>Iterative Refinement</strong> để rút gọn thành dàn ý 6 slide."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-000.png",
+      "caption": "Kết quả tạo nội dung từ ChatGPT"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "2.2. Giai đoạn 2: Tạo hình ảnh bằng DALL-E 3"
+    },
+    {
+      "type": "text",
+      "content": "Thách thức: trực quan hóa khái niệm không có thực — trái chuối kích thước hiển vi mang công nghệ sinh học tương lai."
+    },
+    {
+      "type": "text",
+      "content": "<strong>Prompt lần 1</strong> (mô tả trực diện): <em>\"A tiny yellow banana on a human fingertip, macro photography\"</em> → Kết quả: chuối đồ chơi bằng nhựa, thiếu tính khoa học."
+    },
+    {
+      "type": "text",
+      "content": "<strong>Prompt lần 2</strong> (tinh chỉnh nâng cao): <em>\"A hyper-detailed macro photograph of a microscopic yellow banana on fingertip ridges. Glowing neon blue micro-circuit patterns, holographic DNA double-helix. Dark professional lab setting. Photorealistic, cinematic lighting, 8k\"</em> → Kết quả: <strong>hoàn hảo tuyệt đối</strong>, trở thành biểu tượng thị giác chủ đạo."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-001.png",
+      "caption": "So sánh kết quả DALL-E: Prompt đơn giản vs. Prompt nâng cao"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "2.3. Giai đoạn 3: Thiết kế slide bằng Gemini Canvas"
+    },
+    {
+      "type": "text",
+      "content": "Sử dụng Google Gemini Canvas tích hợp Google Slides. Prompt: <em>\"Đóng vai chuyên gia thiết kế McKinsey. Tạo 6 slide. Tông màu emerald green + banana yellow. Cấu trúc thoáng đạt, tiêu đề góc trái, tiled text\"</em>."
+    },
+    {
+      "type": "text",
+      "content": "Sử dụng tính năng <strong>Refine</strong> để tinh chỉnh từng slide: giảm mật độ chữ, tối ưu bố cục."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-002.png",
+      "caption": "Slide thuyết trình tạo bằng Gemini Canvas"
+    },
+    {
+      "type": "heading",
+      "content": "3. Tích hợp đầu ra AI với sáng tạo cá nhân"
+    },
+    {
+      "type": "text",
+      "content": "AI cung cấp \"nguyên liệu thô\" xuất sắc, nhưng chính sự can thiệp sáng tạo của con người mới tạo nên sản phẩm cuối cùng hoàn chỉnh: chỉnh sửa văn phong, tinh chỉnh prompt hình ảnh qua nhiều vòng lặp, và tùy chỉnh layout slide theo phong cách riêng."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-003.png",
+      "caption": "Sản phẩm final: Slide thuyết trình Nano Banana"
+    },
+    {
+      "type": "heading",
+      "content": "4. So sánh hiệu quả các công cụ AI"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>ChatGPT</strong>: Xuất sắc trong tạo nội dung văn bản có chiều sâu khoa học, sử dụng thuật ngữ chuyên ngành chính xác",
+        "<strong>DALL-E 3</strong>: Mạnh mẽ trong tạo hình ảnh photorealistic, nhưng đòi hỏi prompt cực kỳ chi tiết để đạt kết quả mong muốn",
+        "<strong>Gemini Canvas</strong>: Tiện lợi tích hợp Google Workspace, nhưng khả năng thiết kế còn phụ thuộc vào template có sẵn"
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "5. Đánh giá vai trò AI và đạo đức"
+    },
+    {
+      "type": "text",
+      "content": "AI là <strong>công cụ khuếch đại năng lực</strong>, không phải thay thế sáng tạo con người. Tuy nhiên, cần minh bạch về mức độ sử dụng AI và luôn kiểm chứng thông tin đầu ra trước khi công bố."
+    }
+  ],
+  "driveLink": "https://drive.google.com/file/d/1BiWK7v3mFP2IXInibIqN_n-UThT1JuJG/view?usp=drive_link"
+}
