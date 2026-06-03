@@ -3,146 +3,223 @@
   "title": "Sáng tạo nội dung số với AI",
   "subtitle": "Bài tập 2 - Mục 5.4",
   "icon": "🎨",
-  "description": "Dự án truyền thông \"Nano Banana\" — Sáng tạo sản phẩm nội dung số hoàn chỉnh bằng 3 công cụ AI: ChatGPT, DALL-E 3, Gemini Canvas.",
+  "description": "Dự án: Infographic \"Hành trình trở thành Backend Developer\" cho sinh viên năm nhất UET được xây dựng bằng ChatGPT, DALL-E và Canva AI.",
   "tags": [
     "AI",
     "Digital Content",
     "ChatGPT",
     "DALL-E",
-    "Gemini"
+    "Canva AI"
   ],
   "status": "done",
   "displayMode": "parsed",
   "sections": [
     {
       "type": "heading",
-      "content": "Dự án: Nano Banana — Cuộc Cách Mạng Siêu Thực Phẩm Vũ Trụ"
+      "content": "Báo cáo dự án sử dụng AI tạo sinh"
     },
     {
       "type": "heading",
-      "content": "1. Giới thiệu tổng quan"
+      "level": 3,
+      "content": "Dự án: Infographic “Hành trình trở thành Backend Developer”"
     },
     {
       "type": "text",
-      "content": "Dự án truyền thông công nghệ sinh học <strong>\"Nano Banana\"</strong> được xây dựng nhằm giới thiệu một khái niệm khoa học viễn tưởng: phát minh ra những trái chuối kích thước hiển vi (nano) nhờ công nghệ biến đổi sinh học đột phá."
+      "content": "<strong>Họ và tên:</strong> Nguyễn Tấn Dũng<br><strong>Trường:</strong> Trường Đại học Công nghệ - ĐHQGHN (UET)<br><strong>Môn học:</strong> Ứng dụng công cụ AI tạo sinh trong sáng tạo nội dung số<br><strong>Sản phẩm cuối:</strong> Infographic dạng lộ trình học Backend Development"
+    },
+    {
+      "type": "heading",
+      "content": "1. Giới thiệu dự án"
     },
     {
       "type": "text",
-      "content": "<strong>Mục tiêu cốt lõi</strong>: Giải quyết vấn nạn thiếu hụt dinh dưỡng toàn cầu, đồng thời cung cấp thực phẩm tối ưu cho phi hành gia trong sứ mệnh không gian dài ngày. Mỗi quả \"Nano Banana\" siêu nhỏ chứa hàm lượng calo, kali và vitamin tương đương <strong>10 nải chuối thông thường</strong>."
+      "content": "Em chọn thực hiện một infographic vì sản phẩm này phù hợp với mục tiêu truyền tải nhanh, dễ nhìn và có thể dùng như một bản đồ học tập cá nhân. Chủ đề được chọn là hành trình trở thành Backend Developer của sinh viên năm nhất, gắn với các nội dung em đang học như Java, SQL, Git và xây dựng dự án nhỏ.<br><br>Mục tiêu của dự án không chỉ là tạo ra một hình ảnh đẹp mà còn thử nghiệm cách các công cụ AI tạo sinh hỗ trợ từng khâu: lên ý tưởng, viết nội dung, tạo hình ảnh minh họa, thiết kế bố cục và chỉnh sửa sản phẩm cuối. Trong quá trình thực hiện, em sử dụng 3 nhóm công cụ: ChatGPT để tạo văn bản, DALL-E/công cụ tạo ảnh để gợi ý hình ảnh, và Canva AI để hỗ trợ bố cục thiết kế."
     },
     {
-      "type": "text",
-      "content": "Quy trình làm việc tích hợp 3 công cụ AI:"
+      "type": "image",
+      "src": "assets/img-000.png",
+      "caption": "Sơ đồ tổng quan Infographic: Hành trình trở thành Backend Developer"
+    },
+    {
+      "type": "heading",
+      "content": "2. Kế hoạch thực hiện"
     },
     {
       "type": "list",
       "ordered": true,
       "items": [
-        "🧠 <strong>ChatGPT (OpenAI)</strong> — Nhà cố vấn khoa học viễn tưởng & biên kịch truyền thông",
-        "🎨 <strong>DALL-E 3 (OpenAI)</strong> — Họa sĩ minh họa 3D sinh học",
-        "📊 <strong>Google Gemini Canvas</strong> — Nhà thiết kế slide chuyên nghiệp"
+        "Bước 1: Xác định chủ đề, đối tượng người xem và thông điệp chính.",
+        "Bước 2: Dùng ChatGPT tạo dàn ý, nội dung ngắn và tiêu đề cho từng phần.",
+        "Bước 3: Dùng công cụ tạo ảnh để tìm phong cách hình minh họa phù hợp với chủ đề công nghệ.",
+        "Bước 4: Dùng Canva AI gợi ý layout, màu sắc, font chữ và cách sắp xếp.",
+        "Bước 5: Tự chỉnh sửa, rút gọn câu chữ, thống nhất màu sắc và hoàn thiện sản phẩm."
       ]
     },
     {
       "type": "heading",
-      "content": "2. Quá trình sử dụng các công cụ AI"
+      "content": "I. Ghi lại quá trình sử dụng các công cụ AI"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "2.1. Giai đoạn 1: Tạo lập nội dung bằng ChatGPT"
+      "content": "1. Công cụ AI tạo văn bản: ChatGPT"
     },
     {
       "type": "text",
-      "content": "Áp dụng kỹ thuật <strong>Role-playing + Contextual Prompting</strong> để hướng dẫn ChatGPT tạo bài phân tích sâu sắc, khoa học nhưng giàu tính truyền thông."
-    },
-    {
-      "type": "text",
-      "content": "<strong>System Prompt</strong>: <em>\"Bạn là nhà khoa học viễn tưởng xuất sắc đồng thời là chuyên gia marketing... Viết bài khoa học đại chúng giới thiệu Nano Banana... Chia thành: Giới thiệu, Cơ chế sinh học nano, Ứng dụng thực tiễn, Triển vọng tương lai...\"</em>"
-    },
-    {
-      "type": "text",
-      "content": "ChatGPT tạo ra bài viết với thuật ngữ ấn tượng: \"bio-encapsulation\", \"nanofiber nutrient matrix\", \"cellular assimilation\". Sau đó dùng <strong>Iterative Refinement</strong> để rút gọn thành dàn ý 6 slide."
-    },
-    {
-      "type": "image",
-      "src": "assets/img-000.png",
-      "caption": "Kết quả tạo nội dung từ ChatGPT"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "2.2. Giai đoạn 2: Tạo hình ảnh bằng DALL-E 3"
-    },
-    {
-      "type": "text",
-      "content": "Thách thức: trực quan hóa khái niệm không có thực — trái chuối kích thước hiển vi mang công nghệ sinh học tương lai."
-    },
-    {
-      "type": "text",
-      "content": "<strong>Prompt lần 1</strong> (mô tả trực diện): <em>\"A tiny yellow banana on a human fingertip, macro photography\"</em> → Kết quả: chuối đồ chơi bằng nhựa, thiếu tính khoa học."
-    },
-    {
-      "type": "text",
-      "content": "<strong>Prompt lần 2</strong> (tinh chỉnh nâng cao): <em>\"A hyper-detailed macro photograph of a microscopic yellow banana on fingertip ridges. Glowing neon blue micro-circuit patterns, holographic DNA double-helix. Dark professional lab setting. Photorealistic, cinematic lighting, 8k\"</em> → Kết quả: <strong>hoàn hảo tuyệt đối</strong>, trở thành biểu tượng thị giác chủ đạo."
+      "content": "Mục đích sử dụng ChatGPT là tạo khung nội dung và biến ý tưởng thô thành các phần ngắn gọn, dễ đưa vào infographic. Em không lấy nguyên văn toàn bộ kết quả mà lọc lại các ý chính, chỉnh câu chữ cho phù hợp với phong cách sinh viên và tránh nội dung quá dài.<br><br><strong>Prompt đã dùng:</strong><br>“Hãy lập dàn ý cho một infographic tiếng Việt về hành trình trở thành Backend Developer dành cho sinh viên năm nhất UET. Nội dung cần có 5 bước, mỗi bước gồm tiêu đề ngắn, mô tả 1 câu, thông điệp tổng kết và lời khuyên học tập.”<br><br><strong>Kết quả nhận được:</strong><br>• AI đề xuất cấu trúc gồm 5 chặng: nền tảng lập trình, cơ sở dữ liệu, API/backend core, công cụ làm việc nhóm và dự án thực hành.<br>• AI gợi ý câu chữ ngắn, phù hợp để đặt trong các thẻ nội dung của infographic.<br>• Một số câu còn chung chung nên em chỉnh lại theo nội dung học thực tế: Java OOP, MySQL, Git/GitHub và mini project."
     },
     {
       "type": "image",
       "src": "assets/img-001.png",
-      "caption": "So sánh kết quả DALL-E: Prompt đơn giản vs. Prompt nâng cao"
+      "caption": "Minh họa prompt và kết quả từ công cụ tạo văn bản"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "2.3. Giai đoạn 3: Thiết kế slide bằng Gemini Canvas"
+      "content": "2. Công cụ AI tạo hình ảnh: DALL-E / công cụ tạo ảnh"
     },
     {
       "type": "text",
-      "content": "Sử dụng Google Gemini Canvas tích hợp Google Slides. Prompt: <em>\"Đóng vai chuyên gia thiết kế McKinsey. Tạo 6 slide. Tông màu emerald green + banana yellow. Cấu trúc thoáng đạt, tiêu đề góc trái, tiled text\"</em>."
-    },
-    {
-      "type": "text",
-      "content": "Sử dụng tính năng <strong>Refine</strong> để tinh chỉnh từng slide: giảm mật độ chữ, tối ưu bố cục."
+      "content": "Công cụ tạo ảnh được dùng để tham khảo phong cách thị giác: biểu tượng, màu sắc, bố cục dạng lộ trình và cảm giác công nghệ. Kết quả hình ảnh ban đầu có ý tưởng tốt nhưng phần chữ tiếng Việt không ổn định, vì vậy em chỉ dùng để lấy cảm hứng về icon, màu và bố cục, không dùng trực tiếp toàn bộ ảnh.<br><br><strong>Prompt đã dùng:</strong><br>“Create a clean Vietnamese tech infographic style for a first-year student roadmap to become a Backend Developer: Java, SQL, API, Git, mini project, blue and green palette, modern flat icons, clear timeline.”"
     },
     {
       "type": "image",
       "src": "assets/img-002.png",
-      "caption": "Slide thuyết trình tạo bằng Gemini Canvas"
+      "caption": "Minh họa prompt và kết quả từ công cụ tạo hình ảnh"
     },
     {
       "type": "heading",
-      "content": "3. Tích hợp đầu ra AI với sáng tạo cá nhân"
+      "level": 3,
+      "content": "3. Công cụ AI hỗ trợ thiết kế: Canva AI"
     },
     {
       "type": "text",
-      "content": "AI cung cấp \"nguyên liệu thô\" xuất sắc, nhưng chính sự can thiệp sáng tạo của con người mới tạo nên sản phẩm cuối cùng hoàn chỉnh: chỉnh sửa văn phong, tinh chỉnh prompt hình ảnh qua nhiều vòng lặp, và tùy chỉnh layout slide theo phong cách riêng."
+      "content": "Canva AI được dùng để tìm cách trình bày: chọn bố cục 5 bước, gợi ý bảng màu xanh - trắng, khoảng cách giữa các thẻ nội dung và cách đặt tiêu đề nổi bật. Điểm hữu ích nhất là Canva AI giúp hình dung nhanh nhiều phiên bản layout thay vì phải thiết kế từ trang trắng.<br><br><strong>Prompt đã dùng:</strong><br>“Tạo layout infographic 5 bước về lộ trình học Backend Developer, phong cách hiện đại, màu xanh UET, tiêu đề lớn, mỗi bước có icon và mô tả ngắn.”"
     },
     {
       "type": "image",
       "src": "assets/img-003.png",
-      "caption": "Sản phẩm final: Slide thuyết trình Nano Banana"
+      "caption": "Minh họa prompt và kết quả từ công cụ hỗ trợ thiết kế"
     },
     {
       "type": "heading",
-      "content": "4. So sánh hiệu quả các công cụ AI"
+      "content": "II. Cách chỉnh sửa và tích hợp đầu ra của AI"
+    },
+    {
+      "type": "text",
+      "content": "Sau khi có kết quả từ các công cụ AI, em thực hiện các chỉnh sửa sau để tạo sản phẩm cuối cùng:"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "<strong>ChatGPT</strong>: Xuất sắc trong tạo nội dung văn bản có chiều sâu khoa học, sử dụng thuật ngữ chuyên ngành chính xác",
-        "<strong>DALL-E 3</strong>: Mạnh mẽ trong tạo hình ảnh photorealistic, nhưng đòi hỏi prompt cực kỳ chi tiết để đạt kết quả mong muốn",
-        "<strong>Gemini Canvas</strong>: Tiện lợi tích hợp Google Workspace, nhưng khả năng thiết kế còn phụ thuộc vào template có sẵn"
+        "<strong>Rút gọn nội dung:</strong> các câu dài do ChatGPT tạo ra được chuyển thành cụm ngắn để người xem đọc nhanh.",
+        "<strong>Chuẩn hóa thuật ngữ:</strong> giữ các thuật ngữ chuyên ngành như Backend Developer, Java OOP, MySQL, REST API, Git/GitHub vì đây là các từ khóa quan trọng.",
+        "<strong>Chỉnh màu sắc:</strong> chọn xanh dương làm màu chủ đạo để tạo cảm giác công nghệ, kết hợp nền sáng để dễ đọc.",
+        "<strong>Tự thêm yếu tố cá nhân:</strong> chủ đề gắn với định hướng học backend của bản thân, không chỉ là một mẫu chung do AI tạo ra.",
+        "<strong>Kiểm tra tính hợp lý:</strong> đảm bảo các bước học đi từ nền tảng đến thực hành, tránh nhảy thẳng vào framework khi chưa có kiến thức cơ bản."
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Ở phiên bản đầu, nội dung có quá nhiều chữ và chưa có thứ tự rõ. Sau khi chỉnh, infographic được chuyển sang dạng 5 thẻ liên tiếp, mỗi thẻ chỉ giữ một ý trọng tâm. Phần thông điệp cuối được thêm để nhấn mạnh vai trò của người học: AI hỗ trợ nhưng không thay thế quá trình tư duy và kiểm chứng."
+    },
+    {
+      "type": "heading",
+      "content": "III. So sánh kết quả từ các công cụ AI khác nhau"
+    },
+    {
+      "type": "text",
+      "content": "Mỗi công cụ AI có thế mạnh riêng. Việc kết hợp nhiều công cụ giúp quá trình sáng tạo giống như có một nhóm nhỏ: một người viết nội dung, một người phác thảo hình ảnh và một người gợi ý thiết kế. Tuy nhiên, nếu chỉ ghép đầu ra máy móc thì sản phẩm dễ thiếu cá tính và có lỗi về chữ, bố cục hoặc độ chính xác."
+    },
+    {
+      "type": "text",
+      "content": "<div class=\"table-container\"><table class=\"table\" style=\"width:100%; border-collapse:collapse; margin:var(--space-4) 0; font-size:var(--text-sm); text-align:left;\"><thead><tr style=\"background:var(--bg-subtle); border-bottom:2px solid var(--border-color);\"><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Công cụ</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Vai trò</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Điểm mạnh</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Hạn chế</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>ChatGPT</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tạo ý tưởng, dàn ý, nội dung</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Nhanh, dễ chỉnh, giải thích rõ logic nội dung</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Có thể viết dài, chung chung, cần kiểm tra lại</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>DALL-E / công cụ tạo ảnh</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Gợi ý hình ảnh, icon, phong cách minh họa</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tạo cảm hứng thị giác nhanh, nhiều phong cách</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Chữ tiếng Việt trong ảnh thường lỗi, khó dùng trực tiếp</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Canva AI</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Gợi ý layout, màu sắc, bố cục</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Dễ biến ý tưởng thành sản phẩm trình bày</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Một số mẫu còn phổ biến, cần chỉnh để tránh giống mẫu có sẵn</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Chỉnh sửa cá nhân</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Kiểm tra, chọn lọc, hoàn thiện</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tạo bản sắc riêng, đảm bảo đúng mục tiêu bài</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tốn thời gian, cần có gu trình bày và hiểu nội dung</td></tr></tbody></table></div>"
+    },
+    {
+      "type": "text",
+      "content": "<strong>Nhận xét:</strong> ChatGPT hiệu quả nhất trong giai đoạn “xương sống nội dung”: tìm chủ đề, chia mục, viết thông điệp. Công cụ tạo ảnh phù hợp để tạo cảm hứng, nhưng chưa đáng tin nếu sản phẩm cần chữ tiếng Việt chính xác. Canva AI hữu ích ở giai đoạn trình bày vì giúp xem nhanh nhiều kiểu bố cục. Kết quả cuối cùng tốt nhất khi người làm tự quyết định phần nào giữ lại, phần nào bỏ đi và phần nào viết lại."
+    },
+    {
+      "type": "heading",
+      "content": "IV. Sản phẩm cuối cùng"
+    },
+    {
+      "type": "text",
+      "content": "Sản phẩm cuối là infographic một trang với tiêu đề nổi bật, 5 bước học tập và một thông điệp tổng kết. Bố cục được thiết kế theo hướng từ trái sang phải để thể hiện quá trình tiến bộ. Các mục được chọn đều gắn với kỹ năng nền tảng của backend:<br><br><strong>1. Nền tảng lập trình:</strong> Java OOP, cấu trúc dữ liệu, xử lý lỗi.<br><strong>2. Cơ sở dữ liệu:</strong> MySQL, thiết kế bảng, truy vấn SQL.<br><strong>3. Backend Core:</strong> REST API, service, DAO, security cơ bản.<br><strong>4. Công cụ nhóm:</strong> Git/GitHub, branch, pull request, conflict.<br><strong>5. Dự án mini:</strong> Mini banking/auction system, test và báo cáo."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-004.png",
+      "caption": "Sản phẩm Infographic hoàn chỉnh: Lộ trình học Backend Developer"
+    },
+    {
+      "type": "heading",
+      "content": "V. Phân tích vai trò của AI trong quá trình sáng tạo"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "1. Những phần AI làm tốt"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "AI giúp khởi động ý tưởng nhanh, đặc biệt khi chưa biết nên chia nội dung như thế nào.",
+        "AI tạo nhiều phương án tiêu đề, mô tả và thông điệp để người làm có nguyên liệu lựa chọn.",
+        "AI hỗ trợ hình dung phong cách thiết kế, giúp tiết kiệm thời gian thử bố cục.",
+        "AI giúp phát hiện các mục còn thiếu trong lộ trình, ví dụ cần có Git/GitHub và dự án thực hành."
       ]
     },
     {
       "type": "heading",
-      "content": "5. Đánh giá vai trò AI và đạo đức"
+      "level": 3,
+      "content": "2. Những phần AI còn hạn chế"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "AI có thể viết nội dung chung chung, chưa phản ánh đúng trải nghiệm cá nhân.",
+        "Hình ảnh AI đôi khi tạo chữ sai, icon không nhất quán hoặc bố cục khó chỉnh.",
+        "AI không tự biết yêu cầu cụ thể của môn học nếu người dùng không đưa prompt rõ.",
+        "AI có thể tạo thông tin nghe hợp lý nhưng vẫn cần người dùng kiểm tra lại."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3. AI thay đổi quy trình sáng tạo như thế nào?"
     },
     {
       "type": "text",
-      "content": "AI là <strong>công cụ khuếch đại năng lực</strong>, không phải thay thế sáng tạo con người. Tuy nhiên, cần minh bạch về mức độ sử dụng AI và luôn kiểm chứng thông tin đầu ra trước khi công bố."
+      "content": "Trước đây, em thường bắt đầu bằng việc tự nghĩ bố cục và viết nội dung từ đầu, nên dễ mất thời gian ở giai đoạn mở đầu. Khi dùng AI, quy trình chuyển thành: đưa yêu cầu - nhận nhiều bản nháp - chọn lọc - chỉnh sửa - hoàn thiện. Nhờ vậy, phần khó nhất không còn là “không biết bắt đầu từ đâu” mà là biết đánh giá đầu ra nào phù hợp. AI giống một chiếc bàn phác thảo có rất nhiều giấy nháp: nó đưa ra nhiều hướng, còn người học quyết định hướng nào đáng giữ."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "4. Vấn đề đạo đức cần cân nhắc"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Minh bạch:</strong> cần ghi rõ đã dùng công cụ AI nào và dùng vào bước nào.",
+        "<strong>Trách nhiệm:</strong> người nộp bài phải kiểm tra nội dung, không đổ lỗi cho AI nếu sai.",
+        "<strong>Bản quyền:</strong> không sao chép nguyên mẫu hình ảnh hoặc thiết kế có sẵn nếu không được phép.",
+        "<strong>Tính cá nhân:</strong> sản phẩm nên có chỉnh sửa và đóng góp riêng, không nộp nguyên đầu ra của AI.",
+        "<strong>Độ chính xác:</strong> các thuật ngữ kỹ thuật như REST API, SQL, Git cần được dùng đúng ngữ cảnh."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "VI. Kết luận"
+    },
+    {
+      "type": "text",
+      "content": "Qua dự án này, em nhận thấy AI tạo sinh là công cụ hỗ trợ mạnh trong sáng tạo nội dung số, đặc biệt ở các khâu lên ý tưởng, viết nháp và gợi ý thiết kế. Tuy nhiên, chất lượng sản phẩm cuối phụ thuộc nhiều vào cách đặt prompt, khả năng chọn lọc, chỉnh sửa và tư duy phản biện của người dùng. Vì vậy, AI nên được xem là cộng sự hỗ trợ sáng tạo, còn người học vẫn là người chịu trách nhiệm cuối cùng về nội dung, hình thức và tính trung thực của sản phẩm."
     }
   ],
-  "driveLink": "https://drive.google.com/file/d/1BiWK7v3mFP2IXInibIqN_n-UThT1JuJG/view?usp=drive_link"
+  "driveLink": "baitap1to6/ThucHanh5.pdf"
 }

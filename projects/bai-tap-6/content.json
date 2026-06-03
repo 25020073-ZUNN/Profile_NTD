@@ -3,136 +3,139 @@
   "title": "Sử dụng AI có trách nhiệm",
   "subtitle": "Bài tập 4 - Mục 4.1",
   "icon": "⚖️",
-  "description": "Báo cáo: Sử dụng AI có trách nhiệm và đạo đức trong học thuật — nghiên cứu chính sách, thực hành và xây dựng bộ nguyên tắc cá nhân.",
+  "description": "Báo cáo: Sử dụng AI có trách nhiệm và đạo đức trong học tập tại UET — nghiên cứu chính sách liêm chính học thuật UET/VNU, quy trình thực hiện và bộ 6 nguyên tắc cá nhân.",
   "tags": [
     "AI Ethics",
     "Academic Integrity",
-    "Critical Thinking"
+    "UET VNU"
   ],
   "status": "done",
   "displayMode": "parsed",
   "sections": [
     {
       "type": "heading",
-      "content": "Báo cáo: Sử dụng AI có trách nhiệm và đạo đức trong học thuật"
-    },
-    {
-      "type": "heading",
-      "content": "I. Nghiên cứu chính sách của trường đại học về AI"
+      "content": "Báo cáo: Sử dụng AI có trách nhiệm trong học tập"
     },
     {
       "type": "text",
-      "content": "Phân tích dựa trên chính sách tiêu biểu của các trường đại học lớn tại Việt Nam (ĐH RMIT Việt Nam, ĐH Bách Khoa Hà Nội):"
+      "content": "<em>Học phần: Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo | Sinh viên: Nguyễn Tấn Dũng | Trường: Đại học Công nghệ - ĐHQGHN</em>"
+    },
+    {
+      "type": "text",
+      "content": "<strong>Mục tiêu báo cáo:</strong> nghiên cứu chính sách/liêm chính học thuật liên quan đến AI tại UET/VNU, thực hiện một nhiệm vụ học tập với AI, phân tích đạo đức và xây dựng bộ nguyên tắc cá nhân."
+    },
+    {
+      "type": "heading",
+      "content": "1. Nghiên cứu chính sách của UET/VNU về sử dụng AI trong học tập"
+    },
+    {
+      "type": "text",
+      "content": "Qua tìm kiếm các thông tin công khai, UET chưa có một văn bản riêng, phổ biến rộng rãi, quy định chi tiết từng trường hợp sử dụng AI tạo sinh trong bài tập của sinh viên. Vì vậy, báo cáo này xem chính sách liên quan theo ba lớp: quy chế/liêm chính học thuật của UET/VNU, định hướng phát triển năng lực AI của ĐHQGHN, và yêu cầu trích dẫn minh bạch khi có hỗ trợ từ công cụ AI.<br><br>UET là đơn vị đào tạo và nghiên cứu công nghệ mạnh trong ĐHQGHN. Viện Trí tuệ nhân tạo của UET được thành lập theo Quyết định số 162/QĐ-TCCB ngày 18/03/2022, cho thấy AI là lĩnh vực được nhà trường quan tâm phát triển, không phải một công cụ cần né tránh tuyệt đối. Tuy nhiên, việc dùng AI trong học tập vẫn phải đặt dưới nguyên tắc trung thực, tự chịu trách nhiệm và tôn trọng sở hữu trí tuệ.<br><br>Sổ tay học vụ của UET nhấn mạnh sinh viên phải tuân thủ quy định đào tạo và chịu trách nhiệm với quá trình học tập. Với các sản phẩm học thuật, quy định kiểm soát và xử lý đạo văn của ĐHQGHN nêu rõ khi trích dẫn thông tin, ý tưởng, phân tích hoặc kết quả nghiên cứu của tác giả khác thì sinh viên phải ghi rõ nguồn thông tin và tác giả được trích dẫn. Khi AI tạo sinh tham gia vào quá trình tạo ý tưởng, dàn ý hoặc diễn đạt, việc ghi nhận công cụ và phạm vi hỗ trợ là cách mở rộng tinh thần minh bạch đó sang bối cảnh học thuật số.<br><br>Định hướng gần đây của ĐHQGHN về năng lực AI cho người học cũng nhấn mạnh việc đưa ứng dụng AI vào chương trình học từ sớm, gắn với phương pháp luận, trải nghiệm thực tế và năng lực làm chủ công nghệ. Như vậy, cách tiếp cận phù hợp với sinh viên UET là “được dùng nhưng phải dùng đúng”: AI hỗ trợ học tập, không thay thế tư duy, không che giấu nguồn hỗ trợ, không vi phạm dữ liệu và không biến sản phẩm của máy thành bài làm cá nhân nguyên xi."
+    },
+    {
+      "type": "text",
+      "content": "<div class=\"table-container\"><table class=\"table\" style=\"width:100%; border-collapse:collapse; margin:var(--space-4) 0; font-size:var(--text-sm); text-align:left;\"><thead><tr style=\"background:var(--bg-subtle); border-bottom:2px solid var(--border-color);\"><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Nguồn/khía cạnh</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Ý nghĩa với sinh viên</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Áp dụng khi dùng AI</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>UET và định hướng AI</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">AI là năng lực công nghệ quan trọng, cần được học và khai thác hợp lý.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Có thể dùng AI để gợi ý, mô phỏng, kiểm tra lỗi, tổng hợp tài liệu, nhưng phải hiểu và làm chủ kết quả.</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Quy chế/liêm chính học thuật</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Bài làm phải phản ánh công sức và hiểu biết thật của sinh viên.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Không nộp nguyên văn đầu ra AI như bài của mình; không dùng AI để gian lận kiểm tra/thi.</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Quy định trích dẫn và chống đạo văn</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Thông tin, ý tưởng, dữ liệu lấy từ nguồn khác cần ghi nhận rõ.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Ghi prompt, mô tả đầu ra AI, phần đã chỉnh sửa và cách kiểm chứng; trích dẫn tài liệu gốc.</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Năng lực AI của người học</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Sinh viên cần biết sử dụng AI có phương pháp và có trách nhiệm.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Dùng AI như trợ lý học tập: đặt câu hỏi tốt, đánh giá sai lệch, bảo vệ dữ liệu cá nhân.</td></tr></tbody></table></div>"
+    },
+    {
+      "type": "heading",
+      "content": "2. Thực hiện nhiệm vụ học tập với sự hỗ trợ của AI"
+    },
+    {
+      "type": "text",
+      "content": "Nhiệm vụ được chọn: tổng hợp tài liệu và xây dựng dàn ý cho báo cáo “Sử dụng AI có trách nhiệm trong học tập tại UET”. AI được dùng ở vai trò trợ lý: gợi ý cấu trúc, nhắc các điểm đạo đức cần phân tích, đề xuất cách trình bày infographic và hỗ trợ rà soát ngôn ngữ. Nội dung cuối cùng được người viết đọc lại, đối chiếu với nguồn và chỉnh sửa theo yêu cầu bài tập."
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "🔧 <strong>Công cụ hỗ trợ, không phải người thay thế</strong>: AI được định nghĩa là công cụ tìm kiếm thông tin, tóm tắt tài liệu, kiểm tra ngữ pháp. Sao chép nguyên văn từ AI bị xử lý như <strong>hành vi đạo văn</strong>.",
-        "📋 <strong>Quy định minh bạch và trích dẫn</strong>: Mọi sự can thiệp của AI phải được khai báo rõ ràng. Sử dụng chuẩn trích dẫn APA 7th edition: ghi rõ nguồn công cụ, phiên bản và mục đích sử dụng.",
-        "💡 <strong>Nhận định cá nhân</strong>: Chính sách thể hiện sự cởi mở — không cấm đoán cực đoan mà hướng tới giáo dục sử dụng công nghệ có đạo đức. Đòi hỏi nâng cao năng lực <strong>tư duy phản biện</strong>."
+        "<strong>Prompt đã sử dụng:</strong> “Trường tôi là UET. Hãy giúp tôi lập báo cáo 4-5 trang về sử dụng AI có trách nhiệm trong học tập: nghiên cứu chính sách liên quan, ghi prompt/đầu ra AI, phân tích đạo đức, tạo bộ nguyên tắc cá nhân và đề xuất infographic. Văn phong sinh viên, có trích dẫn nguồn.”",
+        "<strong>Đầu ra AI nhận được:</strong> AI đề xuất cấu trúc gồm 6 phần: mở đầu, chính sách UET/VNU, mô tả quá trình dùng AI, phân tích đạo đức, bộ nguyên tắc cá nhân, infographic và tài liệu tham khảo. AI cũng gợi ý ba nhóm vấn đề đạo đức: ranh giới hỗ trợ - gian lận, sở hữu trí tuệ - trích dẫn, và tác động đến kỹ năng học tập.",
+        "<strong>Cách đánh giá, chỉnh sửa và tích hợp:</strong> Người viết không sao chép nguyên văn đầu ra. Các ý được kiểm tra lại bằng nguồn công khai của UET/VNU, sau đó viết lại bằng lời của mình. Những nhận định chưa có căn cứ được loại bỏ hoặc diễn đạt thận trọng. Phần infographic được thiết kế lại thành 6 nguyên tắc ngắn gọn để dễ đọc."
       ]
     },
     {
       "type": "heading",
-      "content": "II. Thực hiện nhiệm vụ học tập với AI"
-    },
-    {
-      "type": "text",
-      "content": "<strong>Nhiệm vụ</strong>: Chuẩn bị dàn ý thuyết trình và tóm tắt tài liệu cho chủ đề <em>\"Tác động của AI đối với kỹ năng tư duy phản biện của sinh viên\"</em>."
+      "content": "3. Phân tích các vấn đề đạo đức khi dùng AI trong học thuật"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 1: Prompt đã sử dụng"
+      "content": "3.1. Ranh giới giữa hỗ trợ hợp lý và gian lận học thuật"
     },
     {
-      "type": "code",
-      "content": "\"Đóng vai một chuyên gia giáo dục đại học, hãy giúp tôi lập dàn ý\nbài thuyết trình 10 phút về 'Tác động của AI đối với kỹ năng tư duy\nphản biện của sinh viên'. Sau đó, tóm tắt 3 lập luận bảo vệ quan điểm\nrằng AI làm giảm tư duy phản biện nếu lạm dụng.\""
+      "type": "text",
+      "content": "Hỗ trợ hợp lý là khi AI giúp người học hiểu vấn đề, mở rộng góc nhìn, gợi ý dàn ý, kiểm tra lỗi diễn đạt hoặc đưa ví dụ để người học tự xử lý. Gian lận xuất hiện khi sinh viên để AI làm thay phần tư duy cốt lõi rồi nộp như sản phẩm cá nhân. Điểm phân biệt nằm ở mức độ làm chủ: nếu sinh viên không giải thích được nội dung mình nộp, không biết nguồn từ đâu, hoặc không có đóng góp cá nhân, AI đã chuyển từ “trợ lý” thành “người làm hộ”."
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 2: Đầu ra của AI"
+      "content": "3.2. Quyền sở hữu trí tuệ và trích dẫn"
     },
     {
       "type": "text",
-      "content": "AI cung cấp dàn ý 3 phần (Mở bài, Thân bài, Kết luận) và 3 lập luận:"
+      "content": "AI có thể tạo văn bản nghe rất trôi chảy nhưng không tự bảo đảm tính đúng đắn hoặc quyền sử dụng đối với mọi ý tưởng. Vì vậy, khi AI gợi ý luận điểm hoặc tóm tắt tài liệu, người học cần truy về nguồn gốc học thuật, trích dẫn tài liệu thật và ghi rõ phạm vi sử dụng AI. Việc minh bạch này không làm bài yếu đi; ngược lại, nó thể hiện người viết biết dùng công cụ một cách có kiểm soát."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3.3. Tác động đến quá trình học tập và phát triển kỹ năng"
+    },
+    {
+      "type": "text",
+      "content": "Dùng AI quá mức có thể làm sinh viên lười đọc, lười viết và giảm khả năng tự giải quyết vấn đề. Đặc biệt với sinh viên công nghệ, nếu chỉ nhờ AI sinh code hoặc viết bài mà không hiểu nguyên lý, kỹ năng nền sẽ bị rỗng như một cơ sở dữ liệu toàn khóa ngoại nhưng thiếu khóa chính. Ngược lại, nếu dùng AI để tự kiểm tra kiến thức, hỏi vì sao, yêu cầu phản biện hoặc so sánh nhiều cách giải, AI có thể tăng tốc học tập và giúp người học nhìn rõ lỗ hổng của mình."
+    },
+    {
+      "type": "heading",
+      "content": "4. Bộ nguyên tắc cá nhân khi sử dụng AI trong học tập"
     },
     {
       "type": "list",
       "ordered": true,
       "items": [
-        "Hiệu ứng lười biếng nhận thức (Cognitive laziness)",
-        "Thiếu đa dạng góc nhìn do thuật toán (Filter bubble)",
-        "Nguy cơ tin tưởng mù quáng vào thông tin sai lệch"
+        "<strong>Minh bạch từ đầu:</strong> Ghi lại công cụ AI, prompt chính, mục đích sử dụng và phần nào của bài có AI hỗ trợ.",
+        "<strong>Không nộp nguyên văn:</strong> Mọi đầu ra của AI phải được đọc, sửa, kiểm chứng và viết lại theo hiểu biết cá nhân.",
+        "<strong>Nguồn thật quan trọng hơn câu chữ đẹp:</strong> Khi AI đưa thông tin, phải kiểm tra bằng giáo trình, văn bản của trường hoặc nguồn học thuật đáng tin cậy.",
+        "<strong>Không đưa dữ liệu nhạy cảm:</strong> Không nhập mật khẩu, thông tin cá nhân, dữ liệu nội bộ, đề thi kín hoặc tài liệu chưa được phép chia sẻ vào AI.",
+        "<strong>Dùng AI để học, không để né học:</strong> Ưu tiên hỏi AI giải thích, phản biện, đưa ví dụ và chỉ lỗi hơn là yêu cầu làm trọn bài.",
+        "<strong>Tự chịu trách nhiệm cuối cùng:</strong> Người nộp bài phải chịu trách nhiệm về độ đúng, độ trung thực và cách trích dẫn của sản phẩm cuối."
       ]
     },
     {
       "type": "heading",
-      "level": 3,
-      "content": "Bước 3: Đánh giá và chỉnh sửa"
+      "content": "5. Infographic minh họa"
     },
     {
       "type": "text",
-      "content": "Đầu ra có cấu trúc logic nhưng ngôn từ <strong>rập khuôn</strong>. Đã tiến hành:"
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "Loại bỏ lập luận số 2 (quá vĩ mô cho bài thuyết trình 10 phút)",
-        "Bổ sung ví dụ thực tiễn từ môi trường học thuật Việt Nam",
-        "Thay đổi văn phong phù hợp ngữ cảnh trình bày thực tế"
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Bước 4: Tích hợp và trích dẫn"
-    },
-    {
-      "type": "text",
-      "content": "Dùng dàn ý AI làm <strong>khung sườn</strong>, tự viết lại toàn bộ nội dung chi tiết. Trích dẫn minh bạch: <em>\"Bài thuyết trình có sử dụng ChatGPT (GPT-4) để hỗ trợ lên ý tưởng cấu trúc dàn ý ban đầu. (OpenAI, 2024)\"</em>"
-    },
-    {
-      "type": "heading",
-      "content": "III. Phân tích các vấn đề đạo đức"
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "<strong>Ranh giới hỗ trợ hợp lý vs. gian lận</strong>: Rà soát lỗi chính tả, gợi ý từ vựng = hỗ trợ hợp lý. Tạo nội dung cốt lõi rồi nộp dưới tư cách cá nhân = gian lận. Gian lận xảy ra khi \"linh hồn\" bài viết không thuộc về người nộp.",
-        "<strong>Quyền sở hữu trí tuệ</strong>: AI được huấn luyện trên dữ liệu có bản quyền. Đầu ra có thể đang \"xào nấu\" ý tưởng người khác mà không ghi nguồn. Nguy cơ vi phạm bản quyền và liêm chính học thuật.",
-        "<strong>Tác động đến phát triển kỹ năng</strong>: Quá trình làm bài tập rèn luyện tư duy logic và giải quyết vấn đề. Lạm dụng AI dẫn đến \"thui chột\" tư duy phản biện, khiến sinh viên tin tưởng mù quáng vào thông tin có sẵn."
-      ]
-    },
-    {
-      "type": "heading",
-      "content": "IV. Bộ 6 nguyên tắc cá nhân"
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "🧠 <strong>Tự chủ tư duy</strong>: Luôn tự brainstorm và lập dàn ý thô TRƯỚC khi tham vấn AI",
-        "🔍 <strong>Kiểm chứng thông tin (Fact-check)</strong>: Chịu trách nhiệm hoàn toàn, kiểm chứng chéo mọi dữ liệu từ AI",
-        "📝 <strong>Minh bạch tuyệt đối</strong>: Trung thực khai báo công cụ AI đã sử dụng và mức độ can thiệp",
-        "🔒 <strong>Bảo mật dữ liệu</strong>: Không nhập dữ liệu cá nhân, nghiên cứu chưa công bố vào nền tảng AI",
-        "⚖️ <strong>Quy tắc 80/20</strong>: AI chỉ đóng góp tối đa 20% (cấu trúc, sửa lỗi), 80% giá trị cốt lõi từ năng lực cá nhân",
-        "©️ <strong>Tôn trọng bản quyền</strong>: Chủ động tìm kiếm và trích dẫn bản gốc thay vì sao chép nguồn giả định từ AI"
-      ]
-    },
-    {
-      "type": "heading",
-      "content": "V. Infographic tổng kết"
+      "content": "Sản phẩm infographic tổng kết bao gồm 6 nguyên tắc đạo đức cốt lõi khi sử dụng AI và quy trình 4 bước thực hành (Hỏi đúng -> Đọc kỹ -> Sửa bằng hiểu biết -> Trích dẫn).<br><br>Nguyên tắc cốt lõi: <strong>AI là la bàn, không phải người đi thi hộ.</strong>"
     },
     {
       "type": "image",
       "src": "assets/img-000.png",
-      "caption": "Infographic: Sử dụng AI có trách nhiệm trong học thuật"
+      "caption": "Infographic: Sử dụng AI có trách nhiệm trong học tập tại UET"
+    },
+    {
+      "type": "heading",
+      "content": "6. Kết luận và tuyên bố sử dụng AI"
+    },
+    {
+      "type": "text",
+      "content": "AI là công cụ hữu ích trong môi trường đại học, đặc biệt với sinh viên UET khi công nghệ là một phần quan trọng của ngành học. Tuy nhiên, giá trị của việc học không nằm ở việc tạo ra văn bản nhanh nhất, mà nằm ở khả năng hiểu, kiểm chứng, giải thích và phát triển năng lực của chính người học. Vì vậy, sử dụng AI có trách nhiệm cần kết hợp ba yếu tố: minh bạch, kiểm chứng và tự chịu trách nhiệm.<br><br><strong>Tuyên bố sử dụng AI:</strong> Báo cáo này có sử dụng ChatGPT để gợi ý cấu trúc, hỗ trợ diễn đạt, tạo bản nháp infographic và rà soát tính mạch lạc. Người viết đã kiểm tra lại các ý chính bằng nguồn công khai, chỉnh sửa nội dung, bổ sung nhận xét cá nhân và chịu trách nhiệm với bản nộp cuối cùng."
+    },
+    {
+      "type": "heading",
+      "content": "Tài liệu tham khảo"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Đại học Công nghệ - ĐHQGHN. “Viện Trí tuệ nhân tạo”. <a href=\"https://uet.vnu.edu.vn/vien-tri-tue-nhan-tao/\" target=\"_blank\">https://uet.vnu.edu.vn/vien-tri-tue-nhan-tao/</a>",
+        "Đại học Công nghệ - ĐHQGHN. “Sổ tay học vụ”. <a href=\"https://uet.vnu.edu.vn/wp-content/uploads/2020/08/S%E1%BB%95-tay-h%E1%BB%8Dc-v%E1%BB%A5.pdf\" target=\"_blank\">Sổ tay học vụ UET (PDF)</a>",
+        "Đại học Quốc gia Hà Nội. “Quy định kiểm soát và xử lý đạo văn đối với sinh viên làm khóa luận tốt nghiệp” (QĐ 3354). <a href=\"https://daotao.ulis.vnu.edu.vn/files/uploads/2023/12/QD-3354_-Quy-dinh-kiem-soat-va-xu-ly-dao-van-doi-voi-sinh-vien-lam-KLTN.pdf\" target=\"_blank\">Quy định đạo văn (PDF)</a>",
+        "Đại học Công nghệ - ĐHQGHN. “Trí tuệ nhân tạo - Cơ hội và thách thức trong giáo dục đại học”. <a href=\"https://uet.vnu.edu.vn/tri-tue-nhan-tao-co-hoi-va-thach-thuc-trong-giao-duc-dai-hoc/\" target=\"_blank\">Trí tuệ nhân tạo trong giáo dục đại học</a>",
+        "Đại học Quốc gia Hà Nội. “Phát triển năng lực trí tuệ nhân tạo cho người học”. <a href=\"https://vnu.edu.vn/phat-trien-nang-luc-tri-tue-nhan-tao-cho-nguoi-hoc-post38960.html\" target=\"_blank\">Phát triển năng lực AI cho người học</a>"
+      ]
     }
   ],
-  "driveLink": "https://drive.google.com/file/d/1HqgOmmGZVoD0jM04Szv8Hdw19Q-Eaggq/view?usp=drive_link"
+  "driveLink": "baitap1to6/ThucHanh6.pdf"
 }

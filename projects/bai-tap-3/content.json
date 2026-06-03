@@ -3,139 +3,116 @@
   "title": "Viết Prompt hiệu quả với AI",
   "subtitle": "Bài tập 2 - Mục 3.4",
   "icon": "🤖",
-  "description": "Báo cáo thực hành: Tối ưu hóa kỹ năng viết Prompt trong học tập với 3 tác vụ và 3 cấp độ Prompt.",
+  "description": "Báo cáo thực hành: Tối ưu hóa kỹ năng viết Prompt trong học tập với 3 tác vụ học thuật khác nhau và bộ nguyên tắc CREATE.",
   "tags": [
     "AI",
     "Prompt Engineering",
-    "LLMs"
+    "CREATE Framework"
   ],
   "status": "done",
   "displayMode": "parsed",
   "sections": [
     {
       "type": "heading",
-      "content": "Báo cáo: Tối ưu hóa kỹ năng viết Prompt trong học tập"
-    },
-    {
-      "type": "text",
-      "content": "<em>Môn học: Nhập môn CNS-AI | Họ tên: Nguyễn Tấn Dũng</em>"
+      "content": "Báo cáo thực hành: Kỹ năng Prompt Engineering trong học tập"
     },
     {
       "type": "heading",
-      "content": "I. Lời mở đầu"
+      "content": "I. Lựa chọn và phân tích tác vụ học tập"
     },
     {
       "type": "text",
-      "content": "Trong bối cảnh AI phát triển mạnh mẽ, việc ứng dụng các Mô hình Ngôn ngữ Lớn (LLMs) vào học tập giúp tiết kiệm thời gian và nâng cao hiệu suất tiếp thu kiến thức. Báo cáo này trình bày kết quả thực nghiệm và đánh giá hiệu quả của việc thiết kế Prompt theo các cấp độ khác nhau."
-    },
-    {
-      "type": "heading",
-      "content": "II. Lựa chọn và phân tích tác vụ"
-    },
-    {
-      "type": "text",
-      "content": "3 tác vụ học tập được lựa chọn với độ phức tạp khác nhau:"
+      "content": "Để đánh giá hiệu quả của Prompt Engineering, báo cáo này lựa chọn 3 tác vụ học tập phổ biến, gắn liền với chương trình đào tạo ngành Khoa học Dữ liệu và Trí tuệ nhân tạo:"
     },
     {
       "type": "list",
-      "ordered": true,
+      "ordered": false,
       "items": [
-        "<strong>Tóm tắt tài liệu học thuật</strong> — đòi hỏi chắt lọc thông tin trọng tâm từ văn bản chứa nhiều thuật ngữ chuyên ngành",
-        "<strong>Giải thích khái niệm phức tạp (Blockchain)</strong> — đòi hỏi chuyển hóa ngôn ngữ, sử dụng phép ẩn dụ thực tế",
-        "<strong>Tạo bộ câu hỏi ôn tập (Lịch sử)</strong> — đòi hỏi phân hóa độ khó, định dạng chuẩn xác và lời giải thích chi tiết"
+        "<strong>Tác vụ 1 - Tóm tắt một tài liệu học thuật:</strong> Tóm tắt bài báo \"Attention Is All You Need\" về kiến trúc Transformer. Mục tiêu giúp nắm bắt nhanh cơ chế Self-Attention từ tài liệu kỹ thuật dài.",
+        "<strong>Tác vụ 2 - Giải thích một khái niệm phức tạp:</strong> Giải thích ý nghĩa của P-value trong Thống kê. Thách thức là diễn đạt một khái niệm toán học trừu tượng một cách trực quan, tránh nhầm lẫn giữa ý nghĩa thống kê và thực tế.",
+        "<strong>Tác vụ 3 - Tạo bộ câu hỏi ôn tập:</strong> Tạo bài tập thực hành về SQL Joins. Yêu cầu AI tạo được dữ liệu mẫu, câu hỏi truy vấn và đáp án giải thích từng bước."
       ]
     },
     {
       "type": "heading",
-      "content": "III. Xây dựng Prompt và thử nghiệm"
-    },
-    {
-      "type": "text",
-      "content": "Các Prompt được xây dựng theo <strong>3 cấp độ: Cơ bản, Cải tiến và Nâng cao</strong>."
+      "content": "II. Xây dựng, thử nghiệm Prompt và so sánh kết quả"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Tác vụ 1: Tóm tắt tài liệu"
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "<strong>Cơ bản</strong>: \"Tóm tắt bài viết sau về biến đổi khí hậu: [Nội dung]\"",
-        "<strong>Cải tiến</strong>: \"Hãy tóm tắt bài báo khoa học thành 3 đoạn văn ngắn. Tập trung vào nguyên nhân, hệ quả và giải pháp: [Nội dung]\"",
-        "<strong>Nâng cao</strong>: \"Đóng vai biên tập viên tạp chí khoa học. Tóm tắt bài báo cho độc giả cấp 3. Dạng bullet points. Tối đa 200 từ. Ngôn ngữ thân thiện: [Nội dung]\""
-      ]
-    },
-    {
-      "type": "image",
-      "src": "assets/img-000.png",
-      "caption": "Kết quả thử nghiệm Tác vụ 1"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Tác vụ 2: Giải thích Blockchain"
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "<strong>Cơ bản</strong>: \"Công nghệ Blockchain là gì?\"",
-        "<strong>Cải tiến</strong>: \"Giải thích Blockchain chi tiết và đưa ví dụ minh họa\"",
-        "<strong>Nâng cao</strong>: \"Đóng vai chuyên gia công nghệ. Giải thích cho người mù công nghệ. Suy nghĩ từng bước: 1. Định nghĩa bằng ẩn dụ 2. 3 đặc điểm chính 3. Ví dụ thực tế 4. Tóm tắt 1 câu\""
-      ]
-    },
-    {
-      "type": "image",
-      "src": "assets/img-003.png",
-      "caption": "Kết quả thử nghiệm Tác vụ 2"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Tác vụ 3: Tạo bộ câu hỏi ôn tập Lịch sử"
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "<strong>Cơ bản</strong>: \"Tạo câu hỏi trắc nghiệm về Lịch sử Việt Nam thế kỷ 20\"",
-        "<strong>Cải tiến</strong>: \"Tạo 5 câu, mỗi câu 4 lựa chọn A-D, cung cấp đáp án\"",
-        "<strong>Nâng cao</strong>: \"Đóng vai giáo viên. 3 câu phân hóa Dễ/Trung bình/Khó. Định dạng: [Mức độ] Câu hỏi... A-D... Đáp án... Giải thích chi tiết\""
-      ]
-    },
-    {
-      "type": "image",
-      "src": "assets/img-006.png",
-      "caption": "Kết quả thử nghiệm Tác vụ 3"
-    },
-    {
-      "type": "heading",
-      "content": "IV. Phân tích hiệu quả"
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "<strong>Prompt Cơ bản</strong>: Kết quả chung chung, lan man, thiếu trọng tâm. Ngôn ngữ mặc định, định dạng lộn xộn.",
-        "<strong>Prompt Cải tiến</strong>: Giới hạn định lượng (\"3 đoạn\", \"5 câu\") giúp cấu trúc tốt hơn đáng kể. Tuy nhiên vẫn thiếu sắc thái phù hợp đối tượng.",
-        "<strong>Prompt Nâng cao</strong>: Kết quả đột phá nhờ kỹ thuật <strong>Role-prompting</strong> (cung cấp \"nhân cách\" cho AI), <strong>Chain-of-Thought</strong> (tư duy từng bước), và <strong>Output Formatting</strong> (kiểm soát cấu trúc đầu ra)."
-      ]
-    },
-    {
-      "type": "image",
-      "src": "assets/img-008.png",
-      "caption": "So sánh tổng hợp kết quả 3 cấp độ Prompt"
-    },
-    {
-      "type": "heading",
-      "content": "V. Kết luận"
+      "content": "Tác vụ 1: Tóm tắt tài liệu (Kiến trúc Transformer)"
     },
     {
       "type": "text",
-      "content": "Kỹ thuật Prompt Engineering là kỹ năng không thể thiếu trong kỷ nguyên AI. Việc đầu tư thời gian thiết kế Prompt nâng cao (Role-playing + Chain-of-Thought + Output Formatting) giúp nâng chất lượng đầu ra lên <strong>gấp 3-5 lần</strong> so với Prompt cơ bản, biến AI thành công cụ hỗ trợ học tập thực sự hiệu quả."
+      "content": "<ul><li><strong>Prompt Cơ bản:</strong> \"Tóm tắt về kiến trúc Transformer.\"</li><li><strong>Prompt Cải tiến:</strong> \"Hãy tóm tắt bài báo Attention Is All You Need. Trình bày các thành phần chính của Transformer dưới dạng gạch đầu dòng.\"</li><li><strong>Prompt Nâng cao (Role-prompting & Formatting):</strong> \"Đóng vai một Chuyên gia AI. Hãy tóm tắt kiến trúc Transformer cho sinh viên năm cuối ngành IT. Yêu cầu:<br>1. Giải thích cơ chế Self-Attention dưới 50 từ.<br>2. Liệt kê 3 ưu điểm so với RNN.<br>3. Tạo bảng so sánh Encoder và Decoder.\"</li></ul>"
+    },
+    {
+      "type": "text",
+      "content": "<div class=\"table-container\"><table class=\"table\" style=\"width:100%; border-collapse:collapse; margin:var(--space-4) 0; font-size:var(--text-sm); text-align:left;\"><thead><tr style=\"background:var(--bg-subtle); border-bottom:2px solid var(--border-color);\"><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tiêu chí</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Prompt Cơ bản</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Prompt Cải tiến</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Prompt Nâng cao</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Độ sâu</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Sơ sài, như Wikipedia.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Đầy đủ ý chính.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Chuyên sâu, chuẩn thuật ngữ AI.</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Định dạng</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Khối văn bản dài.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Gạch đầu dòng rõ.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Cấu trúc phân tầng, có bảng so sánh.</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Tính ứng dụng</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Chỉ để biết khái niệm.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Dùng để ôn tập nhanh.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Đạt chuẩn tài liệu tham khảo chuyên ngành.</td></tr></tbody></table></div>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tác vụ 2: Giải thích khái niệm (P-value trong Thống kê)"
+    },
+    {
+      "type": "text",
+      "content": "<ul><li><strong>Prompt Cơ bản:</strong> \"Giải thích P-value.\"</li><li><strong>Prompt Cải tiến:</strong> \"Giải thích P-value trong thống kê. Tại sao nó quan trọng và cho ví dụ code Python minh họa.\"</li><li><strong>Prompt Nâng cao (Chain-of-Thought):</strong> \"Đóng vai một Giảng viên Thống kê. Hãy giải thích khái niệm P-value bằng phương pháp tư duy từng bước (Chain-of-thought):<br>Bước 1: Nêu bối cảnh về Giả thuyết không (H0).<br>Bước 2: Giải thích cách tính xác suất từ dữ liệu mẫu.<br>Bước 3: So sánh với ngưỡng alpha (0.05).<br>Bước 4: Nêu sai lầm phổ biến khi hiểu về P-value.\"</li></ul>"
+    },
+    {
+      "type": "text",
+      "content": "<div class=\"table-container\"><table class=\"table\" style=\"width:100%; border-collapse:collapse; margin:var(--space-4) 0; font-size:var(--text-sm); text-align:left;\"><thead><tr style=\"background:var(--bg-subtle); border-bottom:2px solid var(--border-color);\"><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tiêu chí</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Prompt Cơ bản</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Prompt Cải tiến</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Prompt Nâng cao</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Mức độ hiểu</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Định nghĩa khô khan.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Có lý do và ví dụ cơ bản.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Phân tích bản chất từ xác suất.</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Logic</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Rời rạc.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tương đối mạch lạc.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Logic chặt chẽ (CoT) dẫn dắt từ gốc rễ.</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Minh họa</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Không có.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Có code minh họa đơn giản.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Ví dụ thực tế cực kỳ trực quan.</td></tr></tbody></table></div>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tác vụ 3: Tạo bộ câu hỏi (SQL Joins)"
+    },
+    {
+      "type": "text",
+      "content": "<ul><li><strong>Prompt Cơ bản:</strong> \"Tạo bài tập về SQL Join.\"</li><li><strong>Prompt Cải tiến:</strong> \"Tạo một bài tập SQL Join cho bảng Customers và Orders có 5 bản ghi. Cung cấp đáp án.\"</li><li><strong>Prompt Nâng cao (Few-shot & Constraints):</strong> \"Đóng vai Senior Data Engineer. Hãy tạo một mini-test về SQL Joins. Yêu cầu:<br>1. 1 câu hỏi trắc nghiệm phân biệt Left và Right Join.<br>2. 1 bài tập viết Query: Cho 2 bảng (Employee, Department). Yêu cầu tìm nhân viên không thuộc phòng ban nào.<br>3. Đáp án phải giải thích logic từng bước.\"</li></ul>"
+    },
+    {
+      "type": "text",
+      "content": "<div class=\"table-container\"><table class=\"table\" style=\"width:100%; border-collapse:collapse; margin:var(--space-4) 0; font-size:var(--text-sm); text-align:left;\"><thead><tr style=\"background:var(--bg-subtle); border-bottom:2px solid var(--border-color);\"><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tiêu chí</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Prompt Cơ bản</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Prompt Cải tiến</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Prompt Nâng cao</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Tính chính xác</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Câu hỏi lỗi.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Có bài tập và đáp án.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Đề bài chuẩn xác, logic SQL tốt.</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\"><strong>Kiểm soát</strong></td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Không kiểm soát.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Khá tốt.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Ép AI xuất đúng format bài tập thực tế.</td></tr></tbody></table></div>"
+    },
+    {
+      "type": "heading",
+      "content": "III. Phân tích hiệu quả của Prompt (Tư duy phản biện)"
+    },
+    {
+      "type": "text",
+      "content": "Nguyên nhân khiến prompt nâng cao mang lại hiệu quả vượt trội:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Role-prompting:</strong> Giúp AI xác định đúng ngữ cảnh chuyên ngành (Ví dụ: \"Chuyên gia AI\" sẽ dùng thuật ngữ chính xác hơn người dùng phổ thông).",
+        "<strong>Chain-of-Thought (CoT):</strong> Bắt AI suy luận từng bước giúp giảm ảo giác (hallucination) và đảm bảo các bước logic không bị bỏ qua.",
+        "<strong>Few-shot & Constraints:</strong> Việc đưa ra định dạng hoặc ví dụ mẫu giúp kết quả đầu ra đồng nhất và có thể sử dụng ngay để học tập."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "IV. Tổng hợp nguyên tắc và mẹo viết Prompt hiệu quả"
+    },
+    {
+      "type": "text",
+      "content": "Em đúc kết bộ nguyên tắc <strong>CREATE</strong> để viết prompt hiệu quả:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>C - Context (Bối cảnh):</strong> Xác định rõ người viết là ai, đối tượng đọc là ai.",
+        "<strong>R - Request (Yêu cầu rõ ràng):</strong> Tách bạch yêu cầu bằng gạch đầu dòng.",
+        "<strong>E - Examples (Ví dụ):</strong> Cung cấp Few-shot để định hướng định dạng.",
+        "<strong>A - Ask & Adjust (Điều chỉnh):</strong> Liên tục tinh chỉnh các ràng buộc.",
+        "<strong>T - Thought-process (Quy trình):</strong> Sử dụng Chain-of-Thought cho các môn kỹ thuật.",
+        "<strong>E - Eliminate (Loại trừ):</strong> Rào trước các câu trả lời lan man không cần thiết."
+      ]
     }
   ],
-  "driveLink": "https://drive.google.com/file/d/15GX4HSjk-8fTXzm-SWLXMAmBtjwVHTJ3/view?usp=drive_link"
+  "driveLink": "baitap1to6/ThucHanh3.pdf"
 }

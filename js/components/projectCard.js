@@ -159,7 +159,7 @@ export function renderProjectDetail(project) {
         ${project.driveLink ? `
         <a href="${project.driveLink}" target="_blank" rel="noopener noreferrer" 
            class="btn btn--primary" style="margin-top: var(--space-6); display: inline-flex;">
-          📄 Xem tài liệu đầy đủ (Google Drive)
+          📄 ${project.driveLink.toLowerCase().endsWith('.pdf') || project.driveLink.includes('baitap1to6') ? 'Xem báo cáo PDF' : 'Xem tài liệu đầy đủ (Google Drive)'}
         </a>
         ` : ''}
       </div>

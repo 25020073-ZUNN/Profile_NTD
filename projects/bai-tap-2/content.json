@@ -3,109 +3,104 @@
   "title": "Tìm kiếm & đánh giá thông tin",
   "subtitle": "Bài tập 2 - Mục 3.4",
   "icon": "🔍",
-  "description": "Báo cáo nghiên cứu: Phân tích thực trạng chuyển đổi số tại doanh nghiệp vừa và nhỏ (SMEs) ở Hà Nội và đánh giá hệ thống tài liệu học thuật.",
+  "description": "Báo cáo: Tìm kiếm và đánh giá nguồn tài liệu học thuật về ứng dụng Machine Learning trong tối ưu hóa hiệu suất ứng dụng web.",
   "tags": [
     "Research",
-    "Critical Thinking",
-    "Academic"
+    "Machine Learning",
+    "Web Optimization"
   ],
   "status": "done",
   "displayMode": "parsed",
   "sections": [
     {
       "type": "heading",
-      "content": "Báo cáo Nghiên cứu: Chuyển đổi số tại SMEs ở Hà Nội"
+      "content": "Báo cáo: Tìm kiếm và đánh giá thông tin học thuật"
     },
     {
       "type": "text",
-      "content": "Báo cáo này phân tích thực trạng chuyển đổi số tại các Doanh nghiệp Vừa và Nhỏ (SMEs) trên địa bàn Thủ đô Hà Nội, đồng thời đánh giá độ tin cậy của hệ thống tài liệu học thuật được sử dụng."
+      "content": "<strong>Chủ đề:</strong> Ứng dụng của thuật toán Học máy (Machine Learning) trong việc tối ưu hóa hiệu suất ứng dụng web"
     },
     {
       "type": "heading",
-      "content": "1. Cơ sở lựa chọn chủ đề"
+      "content": "I. Lời mở đầu"
     },
     {
       "type": "text",
-      "content": "Trong bối cảnh Cách mạng Công nghiệp 4.0, chuyển đổi số (Digital Transformation) đã trở thành hệ hình quản trị mang tính sống còn. Đối với lực lượng SMEs — xương sống của nền kinh tế Việt Nam — sự thích ứng với kỷ nguyên số là điều kiện tiên quyết để duy trì lợi thế cạnh tranh."
-    },
-    {
-      "type": "text",
-      "content": "Chủ đề nghiên cứu: <strong>\"Động lực, Tác động và Rào cản trong tiến trình Chuyển đổi số tại các SMEs trên địa bàn Thủ đô Hà Nội\"</strong>. Nghiên cứu khoanh vùng tại Hà Nội — trung tâm đổi mới sáng tạo, nơi chịu áp lực kép từ đô thị hóa nhanh và yêu cầu tái cấu trúc mô hình tăng trưởng dựa trên Big Data và AI."
+      "content": "Trong thời đại số hóa, hiệu suất của các ứng dụng web đóng vai trò quan trọng trong việc nâng cao trải nghiệm người dùng và hiệu quả hoạt động của doanh nghiệp. Với sự phát triển mạnh mẽ của Machine Learning (học máy), nhiều phương pháp thông minh đã được áp dụng nhằm tối ưu hóa tốc độ tải trang, phân bổ tài nguyên và dự đoán hành vi người dùng.<br><br>Báo cáo này nhằm mục tiêu thực hành kỹ năng tìm kiếm, thu thập và đánh giá các nguồn tài liệu học thuật liên quan đến việc ứng dụng học máy trong tối ưu hóa hiệu suất hệ thống web."
     },
     {
       "type": "heading",
-      "content": "2. Chiến lược tìm kiếm tài liệu"
+      "content": "II. Phương pháp tìm kiếm thông tin"
     },
     {
       "type": "text",
-      "content": "Chiến lược tìm kiếm toàn diện khai thác 4 nhóm nguồn tài liệu theo chuẩn mực học thuật quốc tế:"
+      "content": "Để thu thập tài liệu cho chủ đề này, quá trình tìm kiếm đã được thực hiện thông qua các bước sau:"
     },
     {
       "type": "list",
       "ordered": true,
       "items": [
-        "<strong>Cơ sở dữ liệu học thuật</strong>: Google Scholar, Microsoft Academic, ResearchGate — sử dụng toán tử Boolean (\"digital transformation\" AND \"SMEs\" AND \"Hanoi\")",
-        "<strong>Tạp chí khoa học chuyên ngành</strong>: IJAAS, Decision Science Letters, Tạp chí Kinh tế và Dự báo, Tạp chí Công Thương",
-        "<strong>Sách chuyên khảo</strong>: NXB Chính trị quốc gia Sự thật, NXB Đại học Quốc gia Hà Nội",
-        "<strong>Nguồn mở Internet</strong>: Cổng thông tin Chuyển đổi số Hà Nội (.gov.vn), báo cáo của Cục Phát triển Doanh nghiệp (MPI) phối hợp GIZ"
+        "<strong>Xác định từ khóa</strong>: Các từ khóa được sử dụng bao gồm: \"Machine learning web performance\", \"Web optimization using AI\", \"Load balancing machine learning\", \"AI in backend optimization\", \"Tối ưu hiệu suất ứng dụng web bằng học máy\".",
+        "<strong>Lựa chọn cơ sở dữ liệu</strong>: Tìm kiếm các bài báo khoa học thông qua Google Scholar. Sử dụng IEEE Xplore để tìm các nghiên cứu chuyên sâu về hệ thống và mạng. Truy cập Springer và Elsevier để tìm các bài báo và tạp chí khoa học uy tín.",
+        "<strong>Tìm kiếm sách chuyên khảo</strong>: Sử dụng thư viện trường hoặc tài liệu online để tìm các giáo trình về Machine Learning và hệ thống phân tán. Tham khảo các sách từ các tác giả uy tín trong lĩnh vực công nghệ thông tin.",
+        "<strong>Khai thác nguồn mở trên Internet</strong>: Truy cập các trang web chính thức của Google, Amazon Web Services (AWS), Microsoft Azure. Thu thập các tài liệu hướng dẫn, báo cáo kỹ thuật và bài viết chuyên ngành."
       ]
     },
     {
-      "type": "text",
-      "content": "Tổng cộng hơn <strong>12 tài liệu tham khảo chất lượng cao</strong> đã được thu thập, trong đó có 6 bài báo khoa học có quy trình bình duyệt (peer-review) nghiêm ngặt."
-    },
-    {
       "type": "heading",
-      "content": "3. Tổng quan tài liệu"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "3.1. Nền tảng lý thuyết"
+      "content": "III. Tiêu chí đánh giá độ tin cậy"
     },
     {
       "type": "text",
-      "content": "Quá trình chuyển đổi số được kiến tạo thông qua các cơ chế nhận thức phức tạp, dựa trên <strong>Thuyết Hành vi Có kế hoạch (TPB)</strong>. Khảo sát trên 456 SMEs tại Hà Nội chỉ ra rằng quá trình số hóa bị chi phối bởi chuỗi 6 nhân tố, trong đó nhận thức về sự hữu ích (Perceived Usefulness) và điều kiện thuận lợi (Facilitating Conditions) là yếu tố quyết định."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "3.2. Tác động lên hiệu suất doanh nghiệp"
-    },
-    {
-      "type": "text",
-      "content": "Nghiên cứu định lượng trên 351 SMEs sử dụng mô hình SEM cho thấy: chuyển đổi số cải thiện hiệu quả sản xuất (β=0.35), tăng năng lực cạnh tranh (β=0.28), giảm chi phí vận hành thông qua tự động hóa. Ngành sản xuất được hưởng lợi nhiều nhất so với ngành dịch vụ."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "3.3. Thực trạng rào cản tại Hà Nội"
-    },
-    {
-      "type": "text",
-      "content": "Theo khảo sát trên 500 SMEs toàn quốc, chỉ <strong>25%</strong> doanh nghiệp sẵn sàng chuyển đổi số thực sự. Tại Hà Nội, <strong>45%</strong> SMEs có ngân sách nhưng không đáp ứng đủ nhu cầu triển khai, và <strong>20%</strong> không có bất kỳ khoản ngân sách nào dành cho chuyển đổi số."
-    },
-    {
-      "type": "heading",
-      "content": "4. Đánh giá độ tin cậy nguồn tài liệu"
-    },
-    {
-      "type": "text",
-      "content": "Toàn bộ 12 nguồn tài liệu được thẩm định theo 5 tiêu chí: <strong>Tác giả, Cơ quan xuất bản, Phương pháp nghiên cứu, Trích dẫn và Tính cập nhật</strong>."
+      "content": "Mỗi nguồn tài liệu thu thập được đánh giá dựa trên 5 tiêu chí chính:"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "<strong>Bài báo khoa học định lượng</strong>: Ưu điểm — tính nhân quả chính xác, độ tin cậy thống kê cao (SEM, SmartPLS 4, SPSS). Nhược điểm — đôi khi bỏ qua rào cản vi mô.",
-        "<strong>Sách chuyên khảo</strong>: Ưu điểm — tầm nhìn chiến lược, hệ thống hóa lý luận chuẩn mực. Nhược điểm — chu kỳ xuất bản dài, minh chứng công nghệ có thể lạc hậu nhanh.",
-        "<strong>Báo cáo vĩ mô/Công quyền</strong>: Ưu điểm — tính ứng dụng tức thì, quy mô mẫu lớn. Nhược điểm — thiếu quy trình peer-review học thuật."
+        "<strong>Tác giả:</strong> Trình độ chuyên môn, nơi công tác (các trường đại học, viện nghiên cứu lớn).",
+        "<strong>Cơ quan xuất bản:</strong> Mức độ uy tín của nhà xuất bản (IEEE, Pearson, Elsevier) hoặc tạp chí (có chỉ số ảnh hưởng - Impact Factor cao).",
+        "<strong>Phương pháp nghiên cứu:</strong> Tính logic, dữ liệu minh bạch, có thực nghiệm rõ ràng.",
+        "<strong>Trích dẫn:</strong> Số lượng trích dẫn từ các nghiên cứu khác (thể hiện tầm ảnh hưởng của tài liệu).",
+        "<strong>Tính cập nhật:</strong> Năm xuất bản (ưu tiên các tài liệu trong vòng 5 năm trở lại đây do đặc thù ngành công nghệ thay đổi nhanh)."
       ]
     },
     {
+      "type": "heading",
+      "content": "IV. Bảng tổng hợp và đánh giá tài liệu"
+    },
+    {
       "type": "text",
-      "content": "Điểm sáng: <strong>90%</strong> tài liệu tham khảo được xuất bản trong giai đoạn 2024-2026, đảm bảo tính cập nhật cao nhất. Sự kết hợp cả ba nhóm nguồn tạo hiệu ứng bù trừ hoàn hảo cho nghiên cứu."
+      "content": "<div class=\"table-container\"><table class=\"table\" style=\"width:100%; border-collapse:collapse; margin:var(--space-4) 0; font-size:var(--text-sm); text-align:left;\"><thead><tr style=\"background:var(--bg-subtle); border-bottom:2px solid var(--border-color);\"><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">STT</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tên tài liệu & Tác giả</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Loại nguồn</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Đánh giá</th><th style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Xếp hạng</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">1</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Mao, M. et al. (2016)</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">IEEE Conference</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tác giả uy tín, đề xuất ML cho resource management, trích dẫn cao.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Cao</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">2</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Chen, X. et al. (2018)</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">IEEE Journal</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Phân tích tối ưu latency bằng ML, phương pháp rõ ràng.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Cao</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">3</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Xu, J. et al. (2020)</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Elsevier</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Ứng dụng deep learning trong load balancing.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Cao</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">4</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Ali, M. et al. (2021)</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Springer</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Nghiên cứu thực nghiệm tối ưu web services.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Cao</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">5</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Google (2023)</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Nguồn mở</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Dữ liệu thực tế từ Google Web Dev.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Cao (thực tiễn)</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">6</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Amazon AWS (2023)</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Nguồn mở</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tài liệu về auto scaling bằng ML.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Cao</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">7</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Géron, A. (2022)</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Sách chuyên khảo</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Kiến thức ML chuẩn, cập nhật.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Rất cao</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">8</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Tanenbaum, A. (2021)</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Sách</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Nền tảng hệ thống phân tán.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Rất cao</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">9</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Zhang, Q. et al. (2019)</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Journal</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Phân tích cloud performance.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Trung bình - Cao</td></tr><tr style=\"border-bottom:1px solid var(--border-color);\"><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">10</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Microsoft Azure (2024)</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Nguồn mở</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Thực tiễn tối ưu cloud.</td><td style=\"padding:var(--space-2); border:1px solid var(--border-color);\">Cao</td></tr></tbody></table></div>"
+    },
+    {
+      "type": "heading",
+      "content": "VI. Kết luận"
+    },
+    {
+      "type": "text",
+      "content": "Qua quá trình tìm kiếm và đánh giá, có thể thấy rằng các tài liệu từ IEEE, Elsevier và các tập đoàn công nghệ lớn như Google, AWS cung cấp nguồn thông tin đáng tin cậy trong lĩnh vực tối ưu hóa hiệu suất web bằng học máy.<br><br>Việc kết hợp giữa tài liệu học thuật và nguồn thực tiễn giúp xây dựng cái nhìn toàn diện, từ lý thuyết đến ứng dụng thực tế. Điều này đặc biệt quan trọng đối với sinh viên ngành Công nghệ thông tin khi nghiên cứu và phát triển hệ thống backend hoặc ứng dụng web hiệu quả."
+    },
+    {
+      "type": "heading",
+      "content": "VII. Danh mục tài liệu tham khảo (Định dạng Harvard)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ali, M., Khan, S. và Vasilakos, A., 2021. <em>Resource management in cloud computing using machine learning</em>. Springer.",
+        "Chen, X., Zhang, H. và Li, Y., 2018. Machine learning for web performance optimization. <em>IEEE Transactions on Network and Service Management</em>, 15(3), tr.1200-1212.",
+        "Géron, A., 2022. <em>Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow</em>. O'Reilly.",
+        "Google, 2023. <em>Web Performance Optimization Guide</em>. [online] Có tại: <a href=\"https://web.dev\" target=\"_blank\">https://web.dev</a> [Truy cập ngày 22 tháng 3 năm 2026].",
+        "Mao, M. và Humphrey, M., 2016. A performance study on cloud computing using machine learning. <em>IEEE Conference</em>.",
+        "Microsoft Azure, 2024. <em>AI for cloud optimization</em>. [online] Có tại: <a href=\"https://azure.microsoft.com\" target=\"_blank\">https://azure.microsoft.com</a> [Truy cập ngày 22 tháng 3 năm 2026].",
+        "Tanenbaum, A. và Steen, M., 2021. <em>Distributed systems</em>. Pearson.",
+        "Xu, J., Zhao, M. và Fortes, J., 2020. Multi-objective optimization in cloud computing. <em>Future Generation Computer Systems</em>, 102, tr.1020-1030.",
+        "Zhang, Q., Chen, M. và Li, L., 2019. Cloud resource allocation using ML. <em>Journal of Cloud Computing</em>, 8(1).",
+        "Amazon Web Services, 2023. <em>Machine learning for performance optimization</em>. [online] Có tại: <a href=\"https://aws.amazon.com\" target=\"_blank\">https://aws.amazon.com</a> [Truy cập ngày 22 tháng 3 năm 2026]."
+      ]
     }
   ],
-  "driveLink": "https://drive.google.com/file/d/1-p7GDCHGGQtefg0MxSGXFLroyoV4lTdO/view?usp=drive_link"
+  "driveLink": "baitap1to6/ThucHanh2.pdf"
 }

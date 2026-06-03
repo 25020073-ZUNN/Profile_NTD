@@ -17,13 +17,9 @@
       "content": "Thực hành thao tác tệp tin và thư mục trên Windows"
     },
     {
-      "type": "text",
-      "content": "Bài tập này hướng dẫn thực hành từng bước các thao tác cơ bản với tệp tin và thư mục trên hệ điều hành Windows, từ việc mở File Explorer đến xóa và khôi phục tệp tin."
-    },
-    {
       "type": "heading",
       "level": 3,
-      "content": "Bước 1: Mở File Explorer"
+      "content": "1. Mở File Explorer"
     },
     {
       "type": "text",
@@ -37,7 +33,7 @@
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 2: Truy cập ổ đĩa"
+      "content": "2. Truy cập ổ đĩa/thư mục"
     },
     {
       "type": "text",
@@ -46,115 +42,203 @@
     {
       "type": "image",
       "src": "assets/img-001.png",
-      "caption": "Giao diện This PC"
+      "caption": "Truy cập thư mục Documents"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 3-4: Tạo thư mục mới"
+      "content": "3. Tạo thư mục mới"
     },
     {
       "type": "text",
-      "content": "Nhấp chuột phải vào khoảng trống → chọn <strong>New → Folder</strong>. Đặt tên thư mục là <code>ThucHanh_HoangTrungDung</code>. Nhấn Enter, sau đó nhấp đúp vào thư mục vừa tạo để mở."
+      "content": "Nhấp chuột phải vào một khoảng trống -> chọn <strong>New -> Folder</strong>. Đặt tên thư mục là <code>ThucHanh_hotensinhvien</code> (ví dụ: <code>ThucHanh_Dung</code>). Nhấn Enter."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-002.png",
+      "caption": "Mở menu chuột phải New -> Folder"
     },
     {
       "type": "image",
       "src": "assets/img-003.png",
-      "caption": "Tạo thư mục mới"
+      "caption": "Tạo thư mục mới và đặt tên"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 5: Tạo tệp tin văn bản"
+      "content": "4. Vào thư mục vừa tạo"
     },
     {
       "type": "text",
-      "content": "Nhấp chuột phải vào khoảng trống → <strong>New → Text Document</strong>. Đặt tên là <code>GhiChu.txt</code>."
+      "content": "Nhấp đúp vào thư mục <code>ThucHanh_Dung</code> vừa tạo."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-004.png",
+      "caption": "Thư mục rỗng vừa tạo"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "5. Tạo tệp tin văn bản"
+    },
+    {
+      "type": "text",
+      "content": "Nhấp chuột phải vào khoảng trống -> <strong>New -> Text Document</strong>. Đặt tên là <code>GhiChu.txt</code>. Nhấn Enter."
     },
     {
       "type": "image",
       "src": "assets/img-005.png",
-      "caption": "Tạo tệp tin văn bản mới"
+      "caption": "Chọn New -> Text Document"
+    },
+    {
+      "type": "image",
+      "src": "assets/img-006.png",
+      "caption": "Tệp tin văn bản GhiChu.txt được tạo thành công"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 6: Đổi tên tệp tin"
+      "content": "6. Đổi tên tệp tin"
     },
     {
       "type": "text",
-      "content": "Nhấp chuột phải vào tệp <code>GhiChu.txt</code> → chọn <strong>Rename</strong>. Đổi tên thành <code>GhiChuQuanTrong.txt</code>."
+      "content": "Nhấp chuột phải vào tệp <code>GhiChu.txt</code> -> chọn <strong>Rename</strong>. Đổi tên thành <code>GhiChuQuanTrong.txt</code>. Nhấn Enter."
     },
     {
       "type": "image",
       "src": "assets/img-007.png",
-      "caption": "Đổi tên tệp tin"
+      "caption": "Chọn Rename tệp GhiChu.txt"
+    },
+    {
+      "type": "image",
+      "src": "assets/img-008.png",
+      "caption": "Đổi tên tệp tin thành GhiChuQuanTrong.txt"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 7: Tạo thư mục con"
+      "content": "7. Tạo thư mục con"
     },
     {
       "type": "text",
-      "content": "Trong thư mục chính, nhấp chuột phải → <strong>New → Folder</strong>. Đặt tên là <code>TaiLieu</code>."
+      "content": "Trong thư mục <code>ThucHanh_Dung</code>, nhấp chuột phải -> <strong>New -> Folder</strong>. Đặt tên là <code>TaiLieu</code>."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-009.png",
+      "caption": "Chọn New -> Folder để tạo thư mục con"
+    },
+    {
+      "type": "image",
+      "src": "assets/img-010.png",
+      "caption": "Thư mục con TaiLieu đã được tạo"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 8: Sao chép tệp tin (Copy & Paste)"
+      "content": "8. Sao chép tệp tin (Copy & Paste)"
     },
     {
       "type": "text",
-      "content": "Nhấp chuột phải vào tệp <code>GhiChuQuanTrong.txt</code> → chọn <strong>Copy</strong> (hoặc Ctrl+C). Mở thư mục <code>TaiLieu</code>, nhấp chuột phải → <strong>Paste</strong> (hoặc Ctrl+V)."
+      "content": "• Nhấp chuột phải vào tệp <code>GhiChuQuanTrong.txt</code> -> chọn <strong>Copy</strong> (hoặc chọn tệp rồi nhấn Ctrl + C).<br>• Nhấp đúp vào thư mục <code>TaiLieu</code>, nhấp chuột phải vào khoảng trống bên trong -> chọn <strong>Paste</strong> (hoặc nhấn Ctrl + V). Bây giờ bạn có một bản sao của tệp trong thư mục <code>TaiLieu</code>."
     },
     {
       "type": "image",
       "src": "assets/img-011.png",
-      "caption": "Sao chép tệp tin vào thư mục con"
+      "caption": "Nhấp chuột phải chọn Copy tệp tin"
+    },
+    {
+      "type": "image",
+      "src": "assets/img-012.png",
+      "caption": "Mở thư mục con TaiLieu và chọn Paste"
+    },
+    {
+      "type": "image",
+      "src": "assets/img-013.png",
+      "caption": "Sao chép tệp tin vào thư mục con thành công"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 9: Di chuyển tệp tin (Cut & Paste)"
+      "content": "9. Di chuyển tệp tin (Cut & Paste)"
     },
     {
       "type": "text",
-      "content": "Tạo tệp <code>DiChuyen.txt</code>. Nhấp chuột phải → <strong>Cut</strong> (Ctrl+X). Mở thư mục <code>TaiLieu</code> → <strong>Paste</strong> (Ctrl+V). Tệp gốc biến mất khỏi vị trí cũ."
+      "content": "• Quay lại thư mục <code>ThucHanh_Dung</code>. Tạo một tệp mới tên là <code>DiChuyen.txt</code>.<br>• Nhấp chuột phải vào tệp <code>DiChuyen.txt</code> -> chọn <strong>Cut</strong> (hoặc chọn tệp rồi nhấn Ctrl + X).<br>• Nhấp đúp vào thư mục <code>TaiLieu</code>, nhấp chuột phải vào khoảng trống -> chọn <strong>Paste</strong> (hoặc nhấn Ctrl + V). Tệp gốc đã biến mất khỏi vị trí cũ và chỉ còn ở vị trí mới."
     },
     {
       "type": "image",
       "src": "assets/img-014.png",
-      "caption": "Di chuyển tệp tin"
+      "caption": "Chọn Cut tệp tin DiChuyen.txt"
+    },
+    {
+      "type": "image",
+      "src": "assets/img-015.png",
+      "caption": "Di chuyển tệp tin vào thư mục con thành công"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 10-11: Xóa tệp tin"
+      "content": "10. Xóa tệp tin"
     },
     {
       "type": "text",
-      "content": "• <strong>Xóa thường</strong>: Chuột phải → Delete → tệp vào Thùng rác.<br>• <strong>Xóa vĩnh viễn</strong>: Chọn tệp → giữ <strong>Shift + Delete</strong> → tệp bị xóa vĩnh viễn, không qua Thùng rác."
+      "content": "Trong thư mục <code>TaiLieu</code>, nhấp chuột phải vào tệp <code>GhiChuQuanTrong.txt</code> -> chọn <strong>Delete</strong>. Tệp sẽ được chuyển vào Thùng rác (Recycle Bin)."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-016.png",
+      "caption": "Chuột phải chọn Delete tệp tin"
     },
     {
       "type": "image",
       "src": "assets/img-017.png",
-      "caption": "Xóa tệp tin"
+      "caption": "Tệp tin đã được xóa khỏi thư mục con"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 12: Khôi phục từ Thùng rác"
+      "content": "11. Xóa vĩnh viễn"
     },
     {
       "type": "text",
-      "content": "Mở <strong>Recycle Bin</strong> trên Desktop. Tìm tệp đã xóa, nhấp chuột phải → <strong>Restore</strong>. Tệp sẽ quay về vị trí ban đầu."
+      "content": "Chọn tệp <code>DiChuyen.txt</code>, nhấn giữ phím <strong>Shift + Delete</strong>. Một cảnh báo sẽ hiện ra. Nếu đồng ý, tệp sẽ bị xóa vĩnh viễn mà không qua Thùng rác."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-018.png",
+      "caption": "Nhấn Shift + Delete tệp DiChuyen.txt và chọn Yes"
     },
     {
       "type": "image",
       "src": "assets/img-019.png",
-      "caption": "Khôi phục tệp tin từ Thùng rác"
+      "caption": "Tệp tin đã bị xóa vĩnh viễn khỏi hệ thống"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "12. Khôi phục từ Thùng rác (Tùy chọn)"
+    },
+    {
+      "type": "text",
+      "content": "Tìm biểu tượng <strong>Recycle Bin</strong> trên màn hình nền, nhấp đúp để mở. Tìm tệp <code>GhiChuQuanTrong.txt</code> đã xóa, nhấp chuột phải vào nó và chọn <strong>Restore</strong>. Tệp sẽ quay trở lại vị trí ban đầu."
+    },
+    {
+      "type": "image",
+      "src": "assets/img-020.png",
+      "caption": "Tìm tệp tin GhiChuQuanTrong.txt trong Recycle Bin"
+    },
+    {
+      "type": "image",
+      "src": "assets/img-021.png",
+      "caption": "Chuột phải và chọn Restore"
+    },
+    {
+      "type": "image",
+      "src": "assets/img-022.png",
+      "caption": "Khôi phục tệp tin về thư mục ban đầu thành công"
     }
   ],
-  "driveLink": "https://drive.google.com/file/d/1NTqRW9qwENfC1NV4xz4Em8jgYRU_hOqm/view?usp=drive_link"
+  "driveLink": "baitap1to6/ThucHanh1.pdf"
 }
