@@ -1,70 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  /* ── Color Palette (serious.business inspired) ── */
-  --bg-primary:     #FAF6F0;   /* Warm off-white / light cream */
-  --bg-secondary:   #F5EFE6;   /* Slightly darker cream for contrasting sections */
-  --bg-surface:     #ffffff;   /* Pure white for card backings */
+  /* ── Color Palette (serious academic & modern tech) ── */
+  --bg-primary:     #f8fafc;   /* Slate 50 - Clean light background */
+  --bg-secondary:   #f1f5f9;   /* Slate 100 - Secondary background */
+  --bg-surface:     #ffffff;   /* Pure white for cards */
   --bg-elevated:    #ffffff;
-  --bg-hover:       #FAF6F0;
-  --bg-hero:        #FAF6F0;
+  --bg-hover:       #f8fafc;
+  --bg-hero:        #f8fafc;
   
-  /* Vibrant Creative Accent Colors */
-  --color-orange:   #FF5F35;   /* Signature energetic orange */
-  --color-blue:     #2B4BF2;   /* Royal cobalt blue */
-  --color-green:    #00DF89;   /* Creative neon green */
-  --color-yellow:   #FCD34D;   /* Sunny vibrant yellow */
-  --color-purple:   #9D4EDD;   /* Vivid violet */
+  /* Academic Tech Accent Colors */
+  --color-navy:     #0f172a;   /* Slate 900 - Deep navy */
+  --color-blue:     #2563eb;   /* Blue 600 - Technology blue */
+  --color-sky:      #0ea5e9;   /* Sky 500 - Light accent */
+  --color-slate:    #475569;   /* Slate 600 - Cool neutral */
+  --color-gray:     #cbd5e1;   /* Slate 300 - Light gray border */
   
-  --accent-start:   var(--color-orange);
+  --accent-start:   var(--color-navy);
   --accent-mid:     var(--color-blue);
-  --accent-end:     var(--color-purple);
-  --accent-gradient: linear-gradient(135deg, var(--color-orange), var(--color-blue));
-  --accent-gradient-h: linear-gradient(90deg, var(--color-orange), var(--color-blue), var(--color-purple));
+  --accent-end:     var(--color-sky);
+  --accent-gradient: linear-gradient(135deg, var(--color-navy), var(--color-blue));
+  --accent-gradient-h: linear-gradient(90deg, var(--color-navy), var(--color-blue), var(--color-sky));
   
   /* Semantic mappings */
-  --color-primary:    var(--color-orange);
+  --color-primary:    var(--color-navy);
   --color-secondary:  var(--color-blue);
-  --color-tertiary:   var(--color-green);
-  --color-warning:    var(--color-yellow);
-  --color-danger:     #FF3B30;
-  --color-success:    var(--color-green);
+  --color-tertiary:   var(--color-sky);
+  --color-warning:    #f59e0b;
+  --color-danger:     #ef4444;
+  --color-success:    #10b981;
   
   /* Text colors */
-  --text-primary:   #121212;   /* Deep near-black */
-  --text-secondary: #3D3D3D;   /* Dark charcoal */
-  --text-muted:     #7F7F7F;   /* Neutral gray */
-  --text-accent:    var(--color-orange);
-  --text-heading:   #121212;
+  --text-primary:   #0f172a;   /* Slate 900 */
+  --text-secondary: #334155;   /* Slate 700 */
+  --text-muted:     #64748b;   /* Slate 500 */
+  --text-accent:    var(--color-blue);
+  --text-heading:   #0f172a;
   
-  /* Border settings (Chunky outlines) */
-  --border-default: 2px solid #121212;
-  --border-subtle:  1px solid rgba(18, 18, 18, 0.15);
-  --border-hover:   2px solid var(--color-orange);
-  --border-accent:  2px solid var(--color-blue);
+  /* Border settings (Sleek modern borders) */
+  --border-default: 1px solid #e2e8f0;   /* Slate 200 */
+  --border-subtle:  1px solid #f1f5f9;   /* Slate 100 */
+  --border-hover:   1px solid var(--color-blue);
+  --border-accent:  1px solid var(--color-blue);
+  --border-color:   #e2e8f0;             /* For inline border references */
+  --bg-subtle:       #f1f5f9;             /* For inline background references */
   
   /* Paper / Glass overlay */
-  --glass-bg:       rgba(250, 246, 240, 0.85);
-  --glass-border:   2px solid #121212;
-  --glass-blur:     12px;
+  --glass-bg:       rgba(255, 255, 255, 0.85);
+  --glass-border:   1px solid rgba(226, 232, 240, 0.8);
+  --glass-blur:     8px;
   
   /* ── Typography ── */
-  --font-heading: 'Space Grotesk', 'Inter', sans-serif;
-  --font-body:    'Inter', sans-serif;
+  --font-heading: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body:    'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-mono:    'JetBrains Mono', monospace;
   
-  /* Font sizes (Agency style: bold, large) */
+  /* Font sizes (Clean & readable) */
   --text-xs:    0.75rem;
   --text-sm:    0.875rem;
   --text-base:  1rem;
   --text-lg:    1.125rem;
-  --text-xl:    1.375rem;
-  --text-2xl:   1.75rem;
-  --text-3xl:   2.25rem;
-  --text-4xl:   3rem;
-  --text-5xl:   4rem;
-  --text-6xl:   5rem;
-  --text-hero:  clamp(3rem, 7vw, 5.5rem);
+  --text-xl:    1.25rem;
+  --text-2xl:   1.5rem;
+  --text-3xl:   1.875rem;
+  --text-4xl:   2.25rem;
+  --text-5xl:   3rem;
+  --text-6xl:   3.75rem;
+  --text-hero:  clamp(2.5rem, 5vw, 4rem);
   
   /* Font weights */
   --weight-normal:    400;
@@ -74,11 +76,11 @@
   --weight-extrabold: 800;
   
   /* Line heights */
-  --leading-tight:   1.1;
+  --leading-tight:   1.2;
   --leading-normal:  1.5;
-  --leading-relaxed: 1.65;
+  --leading-relaxed: 1.625;
   
-  /* ── Spacing (Ample white space) ── */
+  /* ── Spacing ── */
   --space-1:   0.25rem;
   --space-2:   0.5rem;
   --space-3:   0.75rem;
@@ -86,42 +88,42 @@
   --space-5:   1.25rem;
   --space-6:   1.5rem;
   --space-8:   2rem;
-  --space-10:  3rem;
-  --space-12:  4rem;
-  --space-16:  5.5rem;
-  --space-20:  7rem;
-  --space-24:  8.5rem;
-  --space-32:  11rem;
+  --space-10:  2.5rem;
+  --space-12:  3rem;
+  --space-16:  4rem;
+  --space-20:  5rem;
+  --space-24:  6rem;
+  --space-32:  8rem;
   
   /* ── Border Radius ── */
   --radius-sm:    6px;
   --radius-md:    10px;
-  --radius-lg:    16px;
-  --radius-xl:    24px;
-  --radius-2xl:   40px;
+  --radius-lg:    14px;
+  --radius-xl:    18px;
+  --radius-2xl:   28px;
   --radius-full:  9999px;
   
-  /* ── Shadows (Flat brutalist & soft offset) ── */
-  --shadow-flat:        5px 5px 0px #121212;
-  --shadow-flat-hover:  9px 9px 0px #121212;
-  --shadow-flat-btn:    3px 3px 0px #121212;
-  --shadow-sm:          2px 2px 0px rgba(18, 18, 18, 0.08);
-  --shadow-md:          3px 3px 0px #121212;
-  --shadow-lg:          6px 6px 0px #121212;
-  --shadow-xl:          10px 10px 0px #121212;
-  --shadow-card:        4px 4px 0px #121212;
-  --shadow-card-hover:  8px 8px 0px #121212;
+  /* ── Shadows (Modern soft shadow systems) ── */
+  --shadow-sm:          0 1px 2px 0 rgba(15, 23, 42, 0.04);
+  --shadow-md:          0 4px 12px -2px rgba(15, 23, 42, 0.05), 0 2px 4px -1px rgba(15, 23, 42, 0.03);
+  --shadow-lg:          0 12px 24px -4px rgba(15, 23, 42, 0.06), 0 4px 12px -2px rgba(15, 23, 42, 0.04);
+  --shadow-xl:          0 24px 48px -8px rgba(15, 23, 42, 0.08), 0 8px 24px -4px rgba(15, 23, 42, 0.06);
+  --shadow-card:        0 10px 30px -10px rgba(15, 23, 42, 0.04), 0 1px 3px 0 rgba(15, 23, 42, 0.02);
+  --shadow-card-hover:  0 20px 40px -15px rgba(15, 23, 42, 0.1), 0 1px 3px 0 rgba(15, 23, 42, 0.05);
+  --shadow-flat:        0 10px 30px -10px rgba(15, 23, 42, 0.04);
+  --shadow-flat-hover:  0 20px 40px -15px rgba(15, 23, 42, 0.1);
+  --shadow-flat-btn:    0 2px 4px 0 rgba(15, 23, 42, 0.04);
   
-  /* ── Transitions (Snappy and organic) ── */
-  --ease-out:    cubic-bezier(0.25, 1, 0.5, 1);
-  --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);
-  --ease-spring: cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  /* ── Transitions ── */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-fluent: cubic-bezier(0.16, 1, 0.3, 1);
   
-  --duration-fast:    180ms;
-  --duration-normal:  300ms;
-  --duration-slow:    450ms;
-  --duration-slower:  600ms;
+  --duration-fast:    150ms;
+  --duration-normal:  250ms;
+  --duration-slow:    350ms;
+  --duration-slower:  500ms;
   
   /* ── Z-Index ── */
   --z-base:     1;

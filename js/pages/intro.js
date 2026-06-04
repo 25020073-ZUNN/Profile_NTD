@@ -126,9 +126,9 @@ function renderMarqueeRow(items, reverse = false) {
 
 export function renderIntroPage() {
   return `
-    <!-- Hero Section (MS365 style) -->
+    <!-- Hero Section -->
     <section class="hero" id="hero-section">
-      <div class="container">
+      <div class="container hero__container">
         <div class="hero__content">
           <p class="hero__greeting reveal">
             <span class="wave">👋</span>
@@ -142,17 +142,22 @@ export function renderIntroPage() {
           </p>
           <div class="hero__cta reveal">
             <a href="#/projects" class="btn btn--primary btn--lg" id="cta-projects">
-              Xem dự án
+              Xem bài tập
             </a>
             <a href="#/summary" class="btn btn--outline btn--lg" id="cta-summary">
               Tổng kết hành trình
             </a>
           </div>
         </div>
-        <div class="hero__decoration" aria-hidden="true">
-          <div class="hero__orb hero__orb--1"></div>
-          <div class="hero__orb hero__orb--2"></div>
-          <div class="hero__orb hero__orb--3"></div>
+        <div class="hero__profile reveal reveal--right">
+          <div class="hero__avatar-card">
+            <div class="hero__avatar-glow"></div>
+            <img class="hero__avatar" src="assets/images/profilefic.jpg" alt="Nguyễn Tấn Dũng">
+            <div class="hero__profile-badge">
+              <span class="hero__profile-badge-dot"></span>
+              Sinh viên CNTT / Backend Developer
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -173,37 +178,46 @@ export function renderIntroPage() {
           <div class="divider"></div>
         </div>
         <div class="about-grid">
-          <div class="about__avatar-wrapper reveal reveal--left">
-            <div class="about__avatar-glow"></div>
-            <img class="about__avatar" src="assets/images/profilefic.jpg" alt="Nguyễn Tấn Dũng">
+          <div class="about__content reveal reveal--left">
+            <h3 class="about__subtitle">Sinh viên Công nghệ Thông tin</h3>
+            <p class="about__bio">${PERSONAL_INFO.bio}</p>
           </div>
-          <div class="about__info">
-            <p class="about__bio reveal">${PERSONAL_INFO.bio}</p>
-            <div class="info-list reveal">
+          <div class="about__info reveal reveal--right">
+            <div class="info-list">
               <div class="info-item">
                 <span class="info-item__icon">🏫</span>
-                <span class="info-item__label">Trường</span>
-                <span class="info-item__value">${PERSONAL_INFO.school}</span>
+                <div class="info-item__details">
+                  <span class="info-item__label">Trường</span>
+                  <span class="info-item__value">${PERSONAL_INFO.school}</span>
+                </div>
               </div>
               <div class="info-item">
                 <span class="info-item__icon">📚</span>
-                <span class="info-item__label">Ngành</span>
-                <span class="info-item__value">${PERSONAL_INFO.major}</span>
+                <div class="info-item__details">
+                  <span class="info-item__label">Ngành</span>
+                  <span class="info-item__value">${PERSONAL_INFO.major}</span>
+                </div>
               </div>
               <div class="info-item">
                 <span class="info-item__icon">🎓</span>
-                <span class="info-item__label">Năm</span>
-                <span class="info-item__value">${PERSONAL_INFO.year}</span>
+                <div class="info-item__details">
+                  <span class="info-item__label">Năm học</span>
+                  <span class="info-item__value">${PERSONAL_INFO.year}</span>
+                </div>
               </div>
               <div class="info-item">
                 <span class="info-item__icon">📧</span>
-                <span class="info-item__label">Email</span>
-                <span class="info-item__value">${PERSONAL_INFO.email}</span>
+                <div class="info-item__details">
+                  <span class="info-item__label">Email</span>
+                  <span class="info-item__value">${PERSONAL_INFO.email}</span>
+                </div>
               </div>
               <div class="info-item">
                 <span class="info-item__icon">📍</span>
-                <span class="info-item__label">Địa điểm</span>
-                <span class="info-item__value">${PERSONAL_INFO.location}</span>
+                <div class="info-item__details">
+                  <span class="info-item__label">Địa điểm</span>
+                  <span class="info-item__value">${PERSONAL_INFO.location}</span>
+                </div>
               </div>
             </div>
           </div>

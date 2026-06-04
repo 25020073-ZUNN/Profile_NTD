@@ -1,8 +1,7 @@
 /**
- * Creative Geometric Background - serious.business Vibe
- * Renders an off-white canvas with a subtle paper dot grid, and draws
- * modern, drifting, colorful geometric shapes (stars, capsules, squares, circles)
- * that bounce/wrap around, react to mouse attraction, and respond to vertical scroll parallax.
+ * Subtle Dot Grid Background - Modern Tech & Academic Vibe
+ * Renders an understated, fixed dot grid pattern that reacts slightly to vertical scroll
+ * and remains quietly in the background (z-index: -1).
  */
 
 export default class ParticleBackground {
@@ -14,35 +13,17 @@ export default class ParticleBackground {
     
     // Animation variables
     this.time = 0;
-    this.shapes = [];
-    this.numShapes = 16;
-    
-    // Interactions
     this.scrollY = 0;
     this.targetScrollY = 0;
-    this.mouseX = -1000;
-    this.mouseY = -1000;
-    this.targetMouseX = -1000;
-    this.targetMouseY = -1000;
     
     this.isRunning = false;
     this.animationId = null;
-
-    // Creative Colors Palette
-    this.colors = [
-      '#FF5F35', // Orange
-      '#2B4BF2', // Blue
-      '#00DF89', // Green
-      '#FCD34D', // Yellow
-      '#9D4EDD'  // Purple
-    ];
 
     this.init();
   }
 
   init() {
     this.resize();
-    this.createShapes();
     this.setupEvents();
     this.start();
   }
@@ -55,176 +36,52 @@ export default class ParticleBackground {
       top: 0; left: 0;
       width: 100%; height: 100%;
       pointer-events: none;
-      z-index: 15;
-      opacity: 1;
+      z-index: -1;
+      opacity: 0.75;
     `;
-  }
-
-  createShapes() {
-    this.shapes = [];
-    const types = ['circle', 'square', 'capsule', 'cross'];
-    
-    for (let i = 0; i < this.numShapes; i++) {
-      const size = Math.random() * 25 + 15; // Width/radius
-      this.shapes.push({
-        x: Math.random() * this.canvas.width,
-        y: Math.random() * this.canvas.height,
-        vx: (Math.random() - 0.5) * 0.6,
-        vy: (Math.random() - 0.5) * 0.6,
-        size: size,
-        color: this.colors[i % this.colors.length],
-        type: types[i % types.length],
-        angle: Math.random() * Math.PI * 2,
-        rotSpeed: (Math.random() - 0.5) * 0.015,
-        parallaxFactor: 0.15 + Math.random() * 0.35, // Parallax depth
-        originalX: 0,
-        originalY: 0
-      });
-    }
   }
 
   setupEvents() {
     window.addEventListener('resize', () => {
       this.resize();
-      // Re-adjust out of bound shapes
-      this.shapes.forEach(s => {
-        if (s.x > this.canvas.width) s.x = Math.random() * this.canvas.width;
-        if (s.y > this.canvas.height) s.y = Math.random() * this.canvas.height;
-      });
     });
 
     window.addEventListener('scroll', () => {
       this.targetScrollY = window.scrollY;
     }, { passive: true });
-
-    window.addEventListener('mousemove', (e) => {
-      this.targetMouseX = e.clientX;
-      this.targetMouseY = e.clientY;
-    });
-
-    // Reset mouse when leaving window
-    document.addEventListener('mouseleave', () => {
-      this.targetMouseX = -1000;
-      this.targetMouseY = -1000;
-    });
   }
 
   update() {
     this.time += 0.01;
-    
-    // Lerp scroll position for smooth parallax
-    this.scrollY += (this.targetScrollY - this.scrollY) * 0.1;
-    
-    // Lerp mouse coordinates
-    this.mouseX += (this.targetMouseX - this.mouseX) * 0.08;
-    this.mouseY += (this.targetMouseY - this.mouseY) * 0.08;
-
-    // Update shapes
-    this.shapes.forEach(s => {
-      // 1. Core drift movement
-      s.x += s.vx;
-      s.y += s.vy;
-      s.angle += s.rotSpeed;
-
-      // 2. Wrap around screen bounds
-      if (s.x < -s.size * 2) s.x = this.canvas.width + s.size * 2;
-      if (s.x > this.canvas.width + s.size * 2) s.x = -s.size * 2;
-      
-      if (s.y < -s.size * 2) s.y = this.canvas.height + s.size * 2;
-      if (s.y > this.canvas.height + s.size * 2) s.y = -s.size * 2;
-
-      // 3. Playful mouse attraction/repulsion
-      if (this.mouseX > -500) {
-        // Calculate shape Y coordinates adding scroll parallax offset
-        const actualY = s.y - this.scrollY * s.parallaxFactor;
-        const dx = this.mouseX - s.x;
-        const dy = this.mouseY - actualY;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        const maxDist = 250;
-        
-        if (dist < maxDist) {
-          const force = (maxDist - dist) / maxDist;
-          // Subtly attract to cursor creating a fluid magnetic effect
-          s.x += (dx / dist) * force * 1.5;
-          s.y += (dy / dist) * force * 1.5;
-          
-          // Speed up rotation near cursor
-          s.angle += s.rotSpeed * 2 * force;
-        }
-      }
-    });
+    // Lerp scroll position for smooth vertical parallax
+    this.scrollY += (this.targetScrollY - this.scrollY) * 0.08;
   }
 
   draw() {
     const width = this.canvas.width;
     const height = this.canvas.height;
     
-    // Clear canvas with transparent background (canvas is overlay)
+    // Clear canvas
     this.ctx.clearRect(0, 0, width, height);
 
-    // 3. Draw geometric shapes
-    this.shapes.forEach(s => {
-      this.ctx.save();
-      
-      // Calculate scroll parallax position
-      const renderY = s.y - this.scrollY * s.parallaxFactor;
-      
-      // Translate to shape position
-      this.ctx.translate(s.x, renderY);
-      this.ctx.rotate(s.angle);
-      
-      // Apply drawing styles (Chunky border + solid color fills)
-      this.ctx.fillStyle = s.color;
-      this.ctx.strokeStyle = '#121212';
-      this.ctx.lineWidth = 2;
-      this.ctx.globalAlpha = 0.5; // Semi-transparent overlay
+    // Subtle dot grid settings
+    const dotSpacing = 28;
+    const dotSize = 1.5;
+    
+    // Set color to a very soft slate gray dot
+    this.ctx.fillStyle = '#e2e8f0'; 
+    
+    // Calculate vertical offset based on scroll for subtle parallax
+    const offsetY = -Math.floor(this.scrollY * 0.1) % dotSpacing;
 
-      // Subtle drop shadow underlay for neo-brutalism offset
-      this.ctx.shadowColor = '#121212';
-      this.ctx.shadowBlur = 0;
-      this.ctx.shadowOffsetX = 3;
-      this.ctx.shadowOffsetY = 3;
-
-      this.ctx.beginPath();
-      
-      switch (s.type) {
-        case 'circle':
-          this.ctx.arc(0, 0, s.size * 0.7, 0, Math.PI * 2);
-          break;
-          
-        case 'square':
-          this.ctx.rect(-s.size * 0.6, -s.size * 0.6, s.size * 1.2, s.size * 1.2);
-          break;
-          
-        case 'capsule':
-          // Draw a capsule/pill shape
-          const w = s.size * 1.5;
-          const h = s.size * 0.6;
-          const r = h / 2;
-          this.ctx.moveTo(-w/2 + r, -h/2);
-          this.ctx.lineTo(w/2 - r, -h/2);
-          this.ctx.arc(w/2 - r, 0, r, -Math.PI/2, Math.PI/2);
-          this.ctx.lineTo(-w/2 + r, h/2);
-          this.ctx.arc(-w/2 + r, 0, r, Math.PI/2, -Math.PI/2);
-          this.ctx.closePath();
-          break;
-          
-        case 'cross':
-          // Draw cross shape
-          const len = s.size * 0.8;
-          const th = s.size * 0.28;
-          this.ctx.rect(-len, -th/2, len * 2, th);
-          this.ctx.rect(-th/2, -len, th, len * 2);
-          break;
+    this.ctx.beginPath();
+    for (let x = 0; x < width; x += dotSpacing) {
+      for (let y = offsetY; y < height; y += dotSpacing) {
+        if (y < 0) continue;
+        this.ctx.arc(x + (dotSpacing / 2), y, dotSize / 2, 0, Math.PI * 2);
       }
-      
-      this.ctx.fill();
-      this.ctx.shadowOffsetX = 0; // Disable shadow for stroke to look clean
-      this.ctx.shadowOffsetY = 0;
-      this.ctx.stroke();
-      
-      this.ctx.restore();
-    });
+    }
+    this.ctx.fill();
   }
 
   animate() {

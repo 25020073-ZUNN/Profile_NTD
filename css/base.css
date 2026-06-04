@@ -32,10 +32,10 @@ body {
 /* ── Typography ── */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  font-weight: var(--weight-extrabold);
+  font-weight: var(--weight-bold);
   line-height: var(--leading-tight);
   color: var(--text-heading);
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 
 h1 { font-size: var(--text-5xl); }
@@ -49,13 +49,13 @@ p {
   color: var(--text-secondary);
   line-height: var(--leading-relaxed);
   max-width: 65ch;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a {
   color: var(--text-accent);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   transition: all var(--duration-fast) var(--ease-out);
   position: relative;
 }
@@ -114,38 +114,37 @@ input, textarea, select {
 }
 
 input:focus, textarea:focus {
-  border-color: var(--color-orange);
+  border-color: var(--color-secondary);
 }
 
 /* ── Selection ── */
 ::selection {
-  background: var(--color-orange);
+  background: var(--color-secondary);
   color: #ffffff;
 }
 
-/* ── Scrollbar (Chunky serious.business style) ── */
+/* ── Scrollbar (Sleek modern style) ── */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
   background: var(--bg-secondary);
-  border-left: 2px solid #121212;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-orange);
-  border: 2px solid #121212;
+  background: var(--color-gray);
   border-radius: var(--radius-full);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-blue);
+  background: var(--color-slate);
 }
 
 * {
-  scrollbar-width: auto;
-  scrollbar-color: var(--color-orange) var(--bg-secondary);
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-gray) var(--bg-secondary);
 }
 
 /* ── Utility Classes ── */
@@ -157,25 +156,11 @@ input:focus, textarea:focus {
 }
 
 .text-plasma {
-  background: linear-gradient(
-    270deg,
-    var(--color-orange),
-    var(--color-blue),
-    var(--color-green),
-    var(--color-orange)
-  );
-  background-size: 300% 300%;
-  animation: plasma-flow 6s ease infinite;
+  background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-}
-
-@keyframes plasma-flow {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
 }
 
 .visually-hidden {

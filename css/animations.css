@@ -147,7 +147,7 @@
 .spinner {
   width: 32px; height: 32px;
   border: var(--border-default);
-  border-top-color: var(--color-orange);
+  border-top-color: var(--color-secondary);
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
