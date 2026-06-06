@@ -3,115 +3,109 @@
   "title": "Công cụ hợp tác trực tuyến",
   "subtitle": "Bài tập 3 - Mục 4.1",
   "icon": "👥",
-  "description": "Báo cáo cá nhân: Ứng dụng công cụ hợp tác trực tuyến (Trello, Google Docs, Drive, Zalo) trong quản lý dự án nhóm.",
+  "description": "Báo cáo cá nhân: Kế hoạch và kết quả thực hiện nhiệm vụ nhóm (BiddingApplication) sử dụng Trello, Google Docs, GitHub, Discord.",
   "tags": [
     "Collaboration",
     "Trello",
-    "Google Workspace",
-    "Teamwork"
+    "GitHub",
+    "Discord",
+    "Google Docs"
   ],
   "status": "done",
   "displayMode": "parsed",
   "sections": [
     {
       "type": "heading",
-      "content": "Báo cáo cá nhân: Ứng dụng công cụ hợp tác trực tuyến trong quản lý dự án nhóm"
-    },
-    {
-      "type": "heading",
-      "content": "I. Lựa chọn và thiết lập công cụ (Tiêu chí 1)"
+      "content": "Báo cáo cá nhân: Kế hoạch và kết quả thực hiện nhiệm vụ nhóm"
     },
     {
       "type": "text",
-      "content": "Để đảm bảo tiến độ và chất lượng cho dự án nhóm, cá nhân em đã tham gia thiết lập và sử dụng đồng thời 4 công cụ thuộc các nhóm khác nhau, tạo thành một không gian làm việc tối ưu và có tính liên kết:"
+      "content": "<strong>Họ và tên:</strong> Nguyễn Tấn Dũng<br><strong>Mã sinh viên:</strong> 25020073<br><strong>Nhóm:</strong> Bốn Anh Em Siêu Nhân<br><strong>Dự án:</strong> BiddingApplication (Ứng dụng Đấu giá)"
     },
     {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "<strong>Quản lý dự án: Trello.</strong> Tất cả thẻ nhiệm vụ (Card) trên Trello đều được gắn link tài liệu tương ứng từ Google Drive để tối ưu hóa không gian làm việc.",
-        "<strong>Soạn thảo cộng tác: Google Docs.</strong> Dùng để cùng nhau viết kịch bản và báo cáo.",
-        "<strong>Lưu trữ tệp tin: Google Drive.</strong> Nơi tập trung toàn bộ tài nguyên của dự án.",
-        "<strong>Giao tiếp: Zalo/Slack.</strong> Kênh trao đổi thông tin nhanh hàng ngày."
-      ]
+      "type": "heading",
+      "content": "I. Bối cảnh dự án và vai trò cá nhân"
+    },
+    {
+      "type": "text",
+      "content": "Dự án của nhóm chúng tôi là xây dựng một ứng dụng đấu giá (Bidding Application) áp dụng các kiến thức Lập trình nâng cao. Ứng dụng được chia thành nhiều module và tôi (Nguyễn Tấn Dũng) chịu trách nhiệm chính trong việc phát triển Backend, cụ thể là hoàn thiện các tầng Service, Mapper, tạo Test cho lớp Service và tham gia tìm hiểu về Database.<br><br>Để đảm bảo chất lượng và tiến độ dự án, nhóm đã thống nhất sử dụng một hệ sinh thái gồm 4 công cụ cộng tác trực tuyến: Trello (Quản lý dự án), Google Docs (Soạn thảo tài liệu), GitHub (Lưu trữ mã nguồn) và Discord (Giao tiếp nhóm)."
+    },
+    {
+      "type": "heading",
+      "content": "II. Các công cụ hiệp đồng đã sử dụng và minh chứng"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "1. Công cụ quản lý dự án: Trello"
+    },
+    {
+      "type": "text",
+      "content": "Trello được sử dụng để cụ thể hóa các đầu việc lớn thành các thẻ nhiệm vụ (cards) nhỏ hơn, chia theo các cột \"Hôm nay\", \"Tuần này\", \"Sau này\".<br><br>• <strong>Các tác vụ tôi đã thực hiện trên Trello:</strong> Tự quản lý các thẻ công việc cá nhân trong tuần: \"Hoàn thiện tầng Service\", \"Hoàn thiện tầng Mapper\", \"Tạo Test cho lớp Service\", \"Tìm hiểu về DataBase\".<br>• <strong>Cập nhật tiến độ:</strong> Chủ động cập nhật trạng thái (kéo/thả) các task hoàn thành, giúp nhóm trưởng nắm bắt được tiến độ mà không cần họp liên tục."
     },
     {
       "type": "image",
       "src": "assets/img-000.png",
-      "caption": "Thiết lập tài khoản và công cụ làm việc nhóm"
+      "caption": "Bảng Trello quản lý tiến độ công việc cá nhân và nhóm"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "2. Công cụ soạn thảo tài liệu công tác: Google Docs"
+    },
+    {
+      "type": "text",
+      "content": "Nhóm sử dụng Google Docs để tổng hợp tài liệu tự học, các kỹ thuật mới (JavaFX, Sockets, MVC, Serialization) và ghi chú các quy chuẩn code chung.<br><br>• <strong>Các tác vụ tôi đã thực hiện:</strong> Tham gia đọc, chỉnh sửa và đóng góp vào \"Tài liệu tự học LTNC\".<br>• <strong>Lưu trữ tài nguyên:</strong> Lưu trữ tập trung các reference quan trọng giúp thống nhất kiến thức nền tảng giữa các thành viên, đặc biệt là phần cấu trúc MVC."
     },
     {
       "type": "image",
       "src": "assets/img-001.png",
-      "caption": "Quản lý tệp tin và phân quyền trên Google Drive"
-    },
-    {
-      "type": "heading",
-      "content": "II. Quá trình thực hiện nhiệm vụ cá nhân"
+      "caption": "Tài liệu tự học và thảo luận cấu trúc MVC trên Google Docs"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "1. Quản lý tác vụ cá nhân (Tiêu chí 2)"
+      "content": "3. Công cụ lưu trữ và chia sẻ tệp: GitHub"
     },
     {
       "type": "text",
-      "content": "Trong số các công cụ quản lý công việc được giới thiệu, nhóm em đã quyết định lựa chọn trải nghiệm Trello. Sau một thời gian áp dụng thực tế vào dự án nhóm, em nhận thấy đây là một giải pháp cực kỳ trực quan, dễ tiếp cận và mang lại sự thay đổi rất tích cực cho hiệu suất của cả nhóm.<br><br>• <strong>Tổ chức công việc:</strong> Khi áp dụng mô hình Kanban của Trello (với các luồng cơ bản như To do, Doing, Done), bức tranh tổng thể của dự án trở nên rõ ràng hơn bao giờ hết. Nhóm có thể dễ dàng nắm bắt đầu việc nào đang chạy, việc nào đã hoàn thành và việc nào đang tồn đọng.<br><br>• <strong>Thực thi nhiệm vụ:</strong> Nhóm em thiết lập từng Card (thẻ) cho các nhiệm vụ cụ thể, gắn tên người phụ trách, đặt deadline và đính kèm mô tả. Đặc biệt, em rất tâm đắc tính năng Checklist – công cụ tuyệt vời để \"chẻ nhỏ\" một nhiệm vụ lớn thành nhiều bước nhỏ, giúp quá trình làm việc bớt áp lực và khoa học hơn hẳn. Cá nhân em luôn chủ động cập nhật tiến độ trên thẻ của mình ít nhất 3 lần/tuần."
+      "content": "GitHub là \"xương sống\" cho việc lưu trữ toàn bộ mã nguồn của dự án BiddingApplication.<br><br>• <strong>Các tác vụ tôi đã thực hiện:</strong> Tạo nhánh (branch) riêng để phát triển tính năng, ví dụ nhánh \"Service\" cho các xử lý logic.<br>• <strong>Quản lý phiên bản:</strong> Thực hiện các commit thường xuyên với mô tả rõ ràng (như \"sua method getRegisteredSessions...\", \"add usermapper\", \"add ItemMapper and ItemFactory\").<br>• <strong>Hợp nhất mã nguồn:</strong> Sử dụng Pull Request để merge code lên nhánh main."
     },
     {
       "type": "image",
       "src": "assets/img-002.png",
-      "caption": "Chi tiết Card và Checklist trên Trello"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "2. Tương tác và giao tiếp nhóm (Tiêu chí 2)"
-    },
-    {
-      "type": "text",
-      "content": "Sự chuyên nghiệp qua màn hình máy tính không nằm ở việc bạn dùng công cụ đắt tiền, mà nằm ở việc bạn xóa bỏ được bao nhiêu sự mơ hồ cho người ở đầu dây bên kia. Trong tuần qua, em duy trì hơn 10 lượt tương tác hỗ trợ nhóm bằng cách tối ưu hóa \"tín hiệu phản hồi\":<br><br>• Một lượt thả emoji hoặc dòng tin ngắn \"Mình đã nhận\" tuy đơn giản nhưng lại tạo ra sự an tâm và minh chứng cho luồng công việc xuyên suốt.<br><br>• Thay vì để đối tác chờ đợi trong vô vọng, em luôn hồi đáp kèm theo một cái hẹn cụ thể. Ví dụ: \"Mình đã nắm thông tin và sẽ gửi phản hồi chi tiết cho bạn trước 14h chiều nay nhé!\"."
+      "caption": "Mã nguồn và các nhánh phát triển trên GitHub"
     },
     {
       "type": "image",
       "src": "assets/img-003.png",
-      "caption": "Giao tiếp nhóm qua tin nhắn"
+      "caption": "Hệ thống CI/CD (GitHub Actions) chạy kiểm thử tự động và Pull Request thành công"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "3. Quản lý tài nguyên, tệp tin và soạn thảo (Tiêu chí 3)"
+      "content": "4. Công cụ giao tiếp nhóm: Discord"
     },
     {
       "type": "text",
-      "content": "• <strong>Lưu trữ (Google Drive):</strong> Em phụ trách việc tạo lập hệ thống thư mục logic với 2 cấp: Thư mục gốc [Tên Dự Án] -> Thư mục con [Tài liệu tham khảo], [Bản nháp Docs], [Sản phẩm Final]. 100% tệp tin do em tải lên đều được đặt tên theo quy chuẩn: [Ngày]_[Tên nội dung]_[Tên người làm].<br><br>• <strong>Soạn thảo (Google Docs):</strong> Em đã đóng góp trực tiếp nội dung vào bản báo cáo chung. Các tệp này đều được thiết lập quyền truy cập \"View\" cho giảng viên và \"Edit\" cho thành viên nhóm rất phù hợp."
+      "content": "Sử dụng Discord với server \"Bốn Anh Em Siêu Nhân\" được chia làm nhiều kênh nhỏ (chung, thông-báo-thay-đổi, tiến-độ, lạc-đề).<br><br>• <strong>Hiệu quả:</strong> Tạo ra không gian làm việc tập trung, chuyên nghiệp hóa việc trao đổi so với các mạng xã hội thông thường.<br>• <strong>Giao tiếp thời gian thực:</strong> Giúp dễ dàng Voice Call và Share Screen khi cần pair-programming hoặc fix bug gấp."
     },
     {
       "type": "image",
       "src": "assets/img-004.png",
-      "caption": "Cấu trúc Google Drive và Google Docs"
-    },
-    {
-      "type": "image",
-      "src": "assets/img-005.png",
-      "caption": "Bản nháp và cộng tác soạn thảo trên Google Docs"
+      "caption": "Không gian làm việc và trao đổi của nhóm trên Discord"
     },
     {
       "type": "heading",
-      "content": "III. Phân tích 3 Thách thức & 3 Giải pháp (Tiêu chí 4)"
+      "content": "III. Phân tích thách thức và cách giải quyết"
     },
     {
       "type": "text",
-      "content": "Trong quá trình hợp tác, bản thân em và nhóm đã gặp phải một số khó khăn, nhưng đều đã tìm ra cách khắc phục hiệu quả:"
+      "content": "Trong quá trình áp dụng các công cụ làm việc nhóm, tôi đã gặp phải 3 thách thức lớn và đã chủ động tìm ra giải pháp:"
     },
     {
       "type": "text",
-      "content": "<strong>Thách thức 1: Quên cập nhật trạng thái tiến độ lên hệ thống</strong><br>• <strong>Vấn đề:</strong> Thời gian đầu, một vài thành viên chưa quen thao tác nên thỉnh thoảng quên kéo thả thẻ hoặc cập nhật trạng thái, khiến bảng công việc đôi lúc chưa phản ánh đúng 100% thực tế.<br>• <strong>Giải pháp:</strong> Công cụ dù xịn đến đâu cũng cần đi kèm với kỷ luật và thói quen của người sử dụng. Em đã chủ động đóng vai trò nhắc nhở (nhắn tin vào group chung mỗi cuối ngày) để các bạn rà soát lại Trello, từ đó hình thành thói quen cho cả nhóm.<br><br><strong>Thách thức 2: Tranh luận kéo dài, giải quyết vấn đề chậm qua tin nhắn</strong><br>• <strong>Vấn đề:</strong> Có những nội dung phức tạp (như thống nhất ý tưởng kịch bản), nhóm chat qua lại rất lâu, trôi tin nhắn mà không chốt được vấn đề.<br>• <strong>Giải pháp:</strong> Nhận biết đúng thời điểm để \"ngừng gõ phím, nhấc máy lên\" chính là biểu hiện của một người giao tiếp thông minh. Nếu một chủ đề chat giằng co quá 5 phút mà vẫn chưa ngã ngũ, em đã chủ động đề xuất một cuộc gọi nhanh qua Google Meet hoặc Zalo Call để chốt ý án.<br><br><strong>Thách thức 3: Lộn xộn trong việc ghép bài từ nhiều thành viên</strong><br>• <strong>Vấn đề:</strong> Ban đầu mỗi người làm trên một file Word riêng rồi gửi vào nhóm, dẫn đến việc người tổng hợp bị quá tải và không kiểm soát được đâu là file cập nhật cuối cùng.<br>• <strong>Giải pháp:</strong> Chuyển toàn bộ công việc lên soạn thảo chung trên một file Google Docs duy nhất. Mọi người có thể thấy nhau đang gõ gì theo thời gian thực (Real-time), tận dụng tính năng \"Thêm nhận xét\" (Comment) để góp ý trực tiếp vào đoạn văn của người khác thay vì nhắn tin bên ngoài."
-    },
-    {
-      "type": "image",
-      "src": "assets/img-006.png",
-      "caption": "Minh chứng làm việc nhóm thực tế và sửa lỗi phiên bản"
+      "content": "<strong>Thách thức 1: Xung đột mã nguồn (Merge Conflict) trên GitHub</strong><br>• <strong>Vấn đề:</strong> Khi làm việc trên nhánh \"Service\" và chuẩn bị tạo Pull Request merge vào nhánh \"main\", GitHub đã báo lỗi \"Can't automatically merge\" do có sự thay đổi trùng lặp ở một số file cấu trúc.<br>• <strong>Giải pháp:</strong> Thay vì hoảng loạn ép merge (force push), tôi đã chủ động nhắn tin lên kênh Discord #tiến-độ để hẹn bạn cùng sửa file đó. Hai chúng tôi đã vào Voice chat, chia sẻ màn hình và review từng dòng code bị conflict để chọn ra đoạn code tối ưu nhất (resolve merge conflict thủ công). Sau sự cố này, tôi đề xuất nhóm chia nhỏ các class Mapper ra rành mạch hơn.<br><br><strong>Thách thức 2: Trôi thông tin quan trọng trên Discord</strong><br>• <strong>Vấn đề:</strong> Các thành viên thỉnh thoảng thảo luận ngoài lề ở kênh #chung, khiến các link tài liệu Google Docs hoặc thông báo commit GitHub bị trôi mất.<br>• <strong>Giải pháp:</strong> Tôi đã tái cấu trúc lại Discord bằng cách đề xuất chia thành các kênh rõ ràng (#thông-báo-thay-đổi, #tiến-độ, #chung). Đồng thời, nhắc nhở mọi người dùng tính năng \"Pin message\" (Ghim tin nhắn) cho các tài liệu quan trọng để ai cũng có thể truy cập lại nhanh chóng.<br><br><strong>Thách thức 3: Quên cập nhật trạng thái trên Trello</strong><br>• <strong>Vấn đề:</strong> Do quá tập trung vào việc fix bug và viết Test cho lớp Service, có những ngày tôi hoàn thành xong việc đẩy code lên GitHub nhưng quên không kéo thẻ task trên Trello sang cột \"Done\", làm nhóm trưởng tưởng tiến độ bị chậm.<br>• <strong>Giải pháp:</strong> Tôi đã tự đặt ra kỷ luật cá nhân: Dành 10 phút cuối ngày trước khi rời khỏi máy tính để làm thao tác \"Đồng bộ hóa\". Tức là rà soát lại một lượt: Code đã commit chưa -> Trello đã update thẻ chưa -> Đã nhắn báo cáo ngắn gọn lên kênh #tiến-độ trên Discord chưa. Điều này giúp tiến trình làm việc trở nên cực kỳ trơn tru."
     },
     {
       "type": "heading",
@@ -119,7 +113,7 @@
     },
     {
       "type": "text",
-      "content": "Nhìn chung, nếu được khai thác đúng cách và duy trì tính kỷ luật cập nhật hàng ngày, các công cụ trực tuyến không chỉ giúp dự án về đích trơn tru mà còn rèn luyện kỹ năng quản lý thời gian cực kỳ hiệu quả cho mỗi cá nhân. Quá trình này đã giúp em chuyển đổi thành công từ cách làm việc \"bản năng\" sang có hệ thống và chuyên nghiệp hơn."
+      "content": "Việc áp dụng phối hợp 4 công cụ (Trello, Google Docs, GitHub, Discord) đã giúp tôi nâng cao đáng kể kỹ năng quản lý thời gian, khả năng làm việc cộng tác và kỹ năng giải quyết sự cố (đặc biệt là quản lý mã nguồn với Git). Không gian làm việc được tổ chức khoa học, minh bạch chính là chìa khóa giúp cá nhân tôi hoàn thành 100% các đầu việc (Service, Mapper, Testing) đúng deadline và chất lượng."
     }
   ],
   "driveLink": "baitap1to6/ThucHanh4.pdf"
