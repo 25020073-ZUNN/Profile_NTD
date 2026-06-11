@@ -155,7 +155,7 @@ export function renderIntroPage() {
             <img class="hero__avatar" src="assets/images/profilefic.jpg" alt="Nguyễn Tấn Dũng">
             <div class="hero__profile-badge">
               <span class="hero__profile-badge-dot"></span>
-              Sinh viên CNTT / Backend Developer
+              MSV:25020073 / CNTT-IT5
             </div>
           </div>
         </div>
